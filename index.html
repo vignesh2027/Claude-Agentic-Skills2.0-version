@@ -3,11 +3,11 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>AgentOS 2.0 — 73+ Claude Skills for Finance, Engineering, Data & More</title>
-  <meta name="description" content="73+ production-grade Claude Skills across finance, engineering, data science, healthcare, Web3, biotech, and more. The most complete multi-agent AI skills repository." />
-  <meta name="keywords" content="claude skills, ai agents, claude 4, anthropic, multi-agent, rag, finance ai, llm skills, prompt engineering" />
-  <meta property="og:title" content="AgentOS 2.0 — 73+ Claude Skills" />
-  <meta property="og:description" content="Production-grade Claude Skills for finance, engineering, data, legal, healthcare, Web3, and more." />
+  <title>AgentOS 2.0 — 100+ Claude Skills | Finance · Engineering · AI · CEO · Legendary</title>
+  <meta name="description" content="100+ production-grade Claude Skills — FinanceOracle, ClaudeMythos, CEOWarRoom, FounderToCEO and more. The most complete multi-agent AI operating system built on Claude 4." />
+  <meta name="keywords" content="claude skills, ai agents, claude 4, anthropic, multi-agent, rag, finance ai, llm skills, prompt engineering, claude mythos, ceo skills, finance oracle" />
+  <meta property="og:title" content="AgentOS 2.0 — 100+ Claude Skills | The Apex AI Operating System" />
+  <meta property="og:description" content="100+ production-grade Claude Skills — FinanceOracle, ClaudeMythos, CEOWarRoom, FounderToCEO. Institutional-depth frameworks for every domain." />
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Inter:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,400&family=Fira+Code:wght@400;500;600&display=swap" rel="stylesheet" />
@@ -451,12 +451,179 @@
     footer a:hover { color: var(--gold-400); }
     .footer-links { display: flex; gap: 1.5rem; flex-wrap: wrap; }
 
+    /* ── Apex Skills Section ── */
+    .apex-section {
+      background: linear-gradient(160deg, var(--brown-950) 0%, #1a0c04 40%, #0d0602 100%);
+      position: relative; overflow: hidden;
+    }
+    .apex-section::before {
+      content: '';
+      position: absolute; inset: 0;
+      background-image: radial-gradient(circle, rgba(245,158,11,.05) 1px, transparent 1px);
+      background-size: 24px 24px; pointer-events: none;
+    }
+    .apex-orb {
+      position: absolute; border-radius: 50%; pointer-events: none; filter: blur(100px);
+    }
+    .apex-orb-1 { width: 600px; height: 600px; background: rgba(245,158,11,.07); top: -150px; left: -150px; }
+    .apex-orb-2 { width: 400px; height: 400px; background: rgba(180,83,9,.06); bottom: -100px; right: -100px; }
+    .apex-section .section-pill {
+      background: linear-gradient(135deg, rgba(245,158,11,.2), rgba(180,83,9,.15));
+      border-color: rgba(245,158,11,.3); color: var(--gold-300);
+    }
+    .apex-section .section-title { color: #fff; }
+    .apex-section .section-sub { color: rgba(255,255,255,.55); }
+    .apex-grid {
+      display: grid; grid-template-columns: repeat(auto-fit, minmax(400px, 1fr)); gap: 1.5rem;
+    }
+    .apex-card {
+      background: linear-gradient(135deg, rgba(255,255,255,.03), rgba(255,255,255,.01));
+      border: 1px solid rgba(245,158,11,.2);
+      border-radius: var(--radius-lg); padding: 2.2rem;
+      position: relative; overflow: hidden;
+      transition: border-color var(--transition), box-shadow var(--transition), transform var(--transition);
+      backdrop-filter: blur(10px);
+    }
+    .apex-card::before {
+      content: ''; position: absolute; top: 0; left: 0; right: 0; height: 2px;
+      background: linear-gradient(90deg, transparent, var(--gold-400), var(--gold-500), transparent);
+      opacity: 0; transition: opacity .35s ease;
+    }
+    .apex-card::after {
+      content: ''; position: absolute; inset: 0;
+      background: radial-gradient(ellipse 80% 60% at 50% 0%, rgba(245,158,11,.06) 0%, transparent 70%);
+      opacity: 0; transition: opacity .35s ease;
+    }
+    .apex-card:hover {
+      border-color: rgba(245,158,11,.5);
+      box-shadow: 0 0 40px rgba(245,158,11,.12), 0 8px 32px rgba(0,0,0,.4);
+      transform: translateY(-4px);
+    }
+    .apex-card:hover::before, .apex-card:hover::after { opacity: 1; }
+    .apex-card-crown {
+      display: inline-flex; align-items: center; gap: .4rem;
+      background: linear-gradient(135deg, rgba(245,158,11,.2), rgba(180,83,9,.15));
+      color: var(--gold-300); border: 1px solid rgba(245,158,11,.3);
+      padding: .25rem .75rem; border-radius: 99px;
+      font-size: .68rem; font-weight: 800; letter-spacing: .08em; text-transform: uppercase;
+      margin-bottom: 1.2rem;
+    }
+    .apex-card-title {
+      font-size: 1.45rem; font-weight: 900; letter-spacing: -.5px;
+      background: linear-gradient(135deg, var(--gold-300), var(--gold-500), var(--gold-400));
+      background-size: 200% auto;
+      -webkit-background-clip: text; background-clip: text;
+      -webkit-text-fill-color: transparent;
+      animation: shimmer 4s linear infinite;
+      margin-bottom: .6rem;
+    }
+    .apex-card-sub {
+      font-size: .82rem; color: rgba(255,255,255,.45); margin-bottom: 1.4rem;
+      font-family: 'Fira Code', monospace; letter-spacing: .02em;
+    }
+    .apex-card-desc {
+      font-size: .9rem; color: rgba(255,255,255,.65); line-height: 1.7; margin-bottom: 1.5rem;
+    }
+    .apex-features { list-style: none; display: flex; flex-direction: column; gap: .55rem; }
+    .apex-features li {
+      font-size: .82rem; color: rgba(255,255,255,.5); display: flex; gap: .5rem; align-items: flex-start;
+    }
+    .apex-features li::before { content: '✦'; color: var(--gold-500); flex-shrink: 0; font-size: .75rem; margin-top: 2px; }
+    .apex-link {
+      display: inline-flex; align-items: center; gap: .4rem; margin-top: 1.5rem;
+      font-size: .8rem; font-weight: 700; color: var(--gold-400);
+      font-family: 'Fira Code', monospace;
+      transition: color var(--transition); letter-spacing: .02em;
+    }
+    .apex-link:hover { color: var(--gold-300); }
+    .apex-link::after { content: ' →'; }
+
+    /* ── Languages / Tech strip ── */
+    .lang-strip {
+      background: var(--parchment-2);
+      padding: 1.5rem 2rem;
+      border-top: 1px solid var(--border-light);
+      border-bottom: 1px solid var(--border-light);
+    }
+    .lang-strip-inner {
+      max-width: 1160px; margin: 0 auto;
+      display: flex; align-items: center; gap: 1rem; flex-wrap: wrap; justify-content: center;
+    }
+    .lang-label {
+      font-size: .72rem; font-weight: 700; color: var(--text-muted);
+      text-transform: uppercase; letter-spacing: .1em; margin-right: .5rem;
+    }
+    .lang-badge {
+      background: var(--warm-white); color: var(--brown-900);
+      border: 1px solid var(--border);
+      padding: .3rem .75rem; border-radius: 7px;
+      font-size: .74rem; font-weight: 700; font-family: 'Fira Code', monospace;
+      transition: border-color var(--transition), background var(--transition);
+    }
+    .lang-badge:hover { border-color: var(--gold-400); background: var(--gold-50); }
+
+    /* ── Live demo terminal ── */
+    .demo-section { background: var(--brown-950); padding: 5rem 2rem; position: relative; overflow: hidden; }
+    .demo-section::before {
+      content: '';
+      position: absolute; inset: 0;
+      background-image: radial-gradient(circle, rgba(245,158,11,.04) 1px, transparent 1px);
+      background-size: 22px 22px; pointer-events: none;
+    }
+    .demo-section .section-title { color: #fff; }
+    .demo-section .section-sub { color: rgba(255,255,255,.5); }
+    .demo-section .section-pill {
+      background: rgba(245,158,11,.12); color: var(--gold-300); border-color: rgba(245,158,11,.25);
+    }
+    .demo-img-wrap {
+      border-radius: var(--radius-lg); overflow: hidden;
+      border: 1px solid rgba(245,158,11,.15);
+      box-shadow: 0 0 60px rgba(245,158,11,.08), 0 20px 60px rgba(0,0,0,.5);
+      transition: box-shadow .4s ease, transform .4s ease;
+    }
+    .demo-img-wrap:hover {
+      box-shadow: 0 0 80px rgba(245,158,11,.15), 0 24px 70px rgba(0,0,0,.6);
+      transform: translateY(-4px);
+    }
+    .demo-img-wrap img { width: 100%; display: block; }
+
+    /* ── Skill card apex variant ── */
+    .skill-card.apex {
+      border-color: rgba(245,158,11,.35);
+      background: linear-gradient(135deg, var(--gold-50), var(--warm-white));
+    }
+    .skill-card.apex .skill-name { color: var(--gold-600); }
+    .skill-card.apex .skill-gem {
+      background: linear-gradient(135deg, var(--gold-500), var(--gold-700));
+      box-shadow: 0 2px 8px rgba(180,83,9,.3);
+    }
+
+    /* ── Enhanced domain card hover ── */
+    .domain-card {
+      position: relative; overflow: hidden;
+    }
+    .domain-card::after {
+      content: '';
+      position: absolute; bottom: 0; left: 0; right: 0; height: 3px;
+      background: linear-gradient(90deg, var(--gold-400), var(--gold-600));
+      transform: scaleX(0); transform-origin: left;
+      transition: transform .35s ease;
+    }
+    .domain-card:hover::after { transform: scaleX(1); }
+
+    /* ── Animated counter ── */
+    .stat-number, .stats-bar-item .num { transition: all .3s ease; }
+
+    /* Canvas particles */
+    #particles { position: absolute; inset: 0; pointer-events: none; opacity: .45; }
+
     /* ── Responsive ── */
     @media (max-width: 768px) {
       .nav-links { display: none; }
       section { padding: 4rem 1.25rem; }
       .hero-stats { gap: 2rem; }
       .hero h1 { letter-spacing: -1.5px; }
+      .apex-grid { grid-template-columns: 1fr; }
     }
   </style>
 </head>
@@ -481,14 +648,16 @@
   <div class="orb orb-2"></div>
   <div class="orb orb-3"></div>
 
+  <canvas id="particles"></canvas>
+
   <div class="hero-badge">
     <span class="pulse"></span>
-    73+ Skills · 10 Domains · Claude 4.x · Open Source · MIT License
+    100+ Skills · 10 Domains · Claude 4.x · 4 Apex Legends · MIT License
   </div>
 
   <h1>
     One File.<br/>
-    <span class="gold">73+ Specialists.</span><br/>
+    <span class="gold">100+ Specialists.</span><br/>
     Zero Setup.
   </h1>
 
@@ -503,19 +672,19 @@
 
   <div class="hero-stats">
     <div class="stat">
-      <div class="stat-number">73+</div>
+      <div class="stat-number" data-target="100">0</div>
       <div class="stat-label">Claude Skills</div>
     </div>
     <div class="stat">
-      <div class="stat-number">10</div>
+      <div class="stat-number" data-target="10">0</div>
       <div class="stat-label">Domains</div>
     </div>
     <div class="stat">
-      <div class="stat-number">50+</div>
-      <div class="stat-label">Sub-agents</div>
+      <div class="stat-number" data-target="4">0</div>
+      <div class="stat-label">Apex Legends</div>
     </div>
     <div class="stat">
-      <div class="stat-number">100+</div>
+      <div class="stat-number" data-target="120">0</div>
       <div class="stat-label">Frameworks</div>
     </div>
   </div>
@@ -524,11 +693,29 @@
 <!-- ── Stats bar ── -->
 <div class="stats-bar">
   <div class="stats-inner">
-    <div class="stats-bar-item"><div class="num">73+</div><div class="label">Production Skills</div></div>
-    <div class="stats-bar-item"><div class="num">10</div><div class="label">Agent Domains</div></div>
-    <div class="stats-bar-item"><div class="num">4</div><div class="label">Platforms</div></div>
+    <div class="stats-bar-item"><div class="num" data-target="100">0+</div><div class="label">Production Skills</div></div>
+    <div class="stats-bar-item"><div class="num" data-target="10">0</div><div class="label">Agent Domains</div></div>
+    <div class="stats-bar-item"><div class="num" data-target="4">0</div><div class="label">Apex Legends</div></div>
     <div class="stats-bar-item"><div class="num">MIT</div><div class="label">Free License</div></div>
     <div class="stats-bar-item"><div class="num">60s</div><div class="label">Setup Time</div></div>
+  </div>
+</div>
+
+<!-- ── Languages Strip ── -->
+<div class="lang-strip">
+  <div class="lang-strip-inner">
+    <span class="lang-label">Code Examples In:</span>
+    <span class="lang-badge">Python</span>
+    <span class="lang-badge">TypeScript</span>
+    <span class="lang-badge">JavaScript</span>
+    <span class="lang-badge">Go</span>
+    <span class="lang-badge">Rust</span>
+    <span class="lang-badge">SQL</span>
+    <span class="lang-badge">Solidity</span>
+    <span class="lang-badge">Shell / Bash</span>
+    <span class="lang-badge">YAML</span>
+    <span class="lang-badge">Cypher</span>
+    <span class="lang-badge">HTML / CSS</span>
   </div>
 </div>
 
@@ -556,15 +743,28 @@
   <div class="container">
     <div class="section-head">
       <div class="section-pill">🤖 Agent Roster</div>
-      <h2 class="section-title">10 domains.<br/><span class="gold">73+ specialists.</span></h2>
+      <h2 class="section-title">10 domains.<br/><span class="gold">100+ specialists.</span></h2>
       <p class="section-sub">Every agent has sub-agents, trigger keywords, real frameworks, output format templates, and specific forbidden behaviors.</p>
     </div>
     <div class="domains-grid">
 
+      <div class="domain-card" style="border-color:var(--gold-300);background:linear-gradient(135deg,var(--gold-50),var(--warm-white));">
+        <div class="domain-head">
+          <div class="domain-icon">👑</div>
+          <div><div class="domain-name" style="background:linear-gradient(135deg,var(--gold-600),var(--gold-800));-webkit-background-clip:text;-webkit-text-fill-color:transparent;background-clip:text;">Apex Legendary Tier</div><div class="domain-count">4 Skills</div></div>
+        </div>
+        <ul class="skill-list">
+          <li class="skill-item"><strong>FinanceOracle</strong> — Goldman + Bridgewater + Citadel · Black-Scholes, Black-Litterman, risk parity</li>
+          <li class="skill-item"><strong>ClaudeMythos</strong> — Claude's highest form · 7-level stack, SystemPromptForge, cross-domain synthesis</li>
+          <li class="skill-item"><strong>CEOWarRoom</strong> — McKinsey + Sequoia + Fortune 50 · moat defense, activist playbook, crisis 5Rs</li>
+          <li class="skill-item"><strong>FounderToCEO</strong> — Pre-seed to IPO · PMF scorecard, term sheet flags, VP Sales rubric</li>
+        </ul>
+      </div>
+
       <div class="domain-card">
         <div class="domain-head">
           <div class="domain-icon">💹</div>
-          <div><div class="domain-name">Finance & Investment</div><div class="domain-count">8 Skills</div></div>
+          <div><div class="domain-name">Finance & Investment</div><div class="domain-count">9 Skills</div></div>
         </div>
         <ul class="skill-list">
           <li class="skill-item"><strong>QuantTrader</strong> — JSON signals: entry/target/stop/R:R, Kelly sizing, regime</li>
@@ -609,9 +809,11 @@
       <div class="domain-card">
         <div class="domain-head">
           <div class="domain-icon">🏢</div>
-          <div><div class="domain-name">Operations & Business</div><div class="domain-count">12 Skills</div></div>
+          <div><div class="domain-name">Operations & Business</div><div class="domain-count">14 Skills</div></div>
         </div>
         <ul class="skill-list">
+          <li class="skill-item"><strong>CEOWarRoom</strong> — Capital allocation, moat defense, board navigation, activist defense</li>
+          <li class="skill-item"><strong>FounderToCEO</strong> — Pre-seed to IPO, PMF detection, term sheet review, exec hiring</li>
           <li class="skill-item"><strong>ProductStrategy</strong> — PRD writing, RICE scoring, north star, LTV/CAC</li>
           <li class="skill-item"><strong>B2BSalesPlaybook</strong> — MEDDPICC, discovery framework, business case writing</li>
           <li class="skill-item"><strong>SaaSMetricsAnalyst</strong> — ARR/NRR/GRR, Rule of 40, magic number, benchmarks</li>
@@ -655,6 +857,103 @@
   </div>
 </section>
 
+<!-- ── Apex Skills ── -->
+<section class="apex-section" id="apex">
+  <div class="apex-orb apex-orb-1"></div>
+  <div class="apex-orb apex-orb-2"></div>
+  <div class="container">
+    <div class="section-head">
+      <div class="section-pill">👑 Apex Tier</div>
+      <h2 class="section-title">The 4 Legendary Skills</h2>
+      <p class="section-sub">These are the deepest, most powerful skills in AgentOS — each one is a synthesis of what the best minds in their domain actually do.</p>
+    </div>
+    <div class="apex-grid">
+
+      <div class="apex-card">
+        <div class="apex-card-crown">♦ Finance Apex</div>
+        <div class="apex-card-title">FinanceOracle</div>
+        <div class="apex-card-sub">Goldman · Bridgewater · Citadel · Family Office CIO</div>
+        <div class="apex-card-desc">The most complete institutional finance skill ever built for Claude. Black-Scholes options pricing, Black-Litterman portfolio construction, risk parity, fixed income duration/convexity, hedge fund strategy design, endowment model, and tax optimization — every formula, all asset classes.</div>
+        <ul class="apex-features">
+          <li>Black-Scholes + Greeks + implied vol Newton-Raphson (Python)</li>
+          <li>Black-Litterman posterior returns + optimal weights (Python)</li>
+          <li>Risk parity equal-contribution optimizer (Python + scipy)</li>
+          <li>Strategy Sharpe/Sortino/Calmar/Omega metrics (TypeScript)</li>
+          <li>Yale Endowment Model illiquidity budget (Go)</li>
+          <li>Tax optimization: QSBS, Opportunity Zone, wash sale avoidance</li>
+        </ul>
+        <a href="https://github.com/vignesh2027/Claude-Agentic-Skills2.0-version/blob/main/finance-oracle/SKILL.md" class="apex-link" target="_blank">finance-oracle/SKILL.md</a>
+      </div>
+
+      <div class="apex-card">
+        <div class="apex-card-crown">✦ Apex Intelligence</div>
+        <div class="apex-card-title">ClaudeMythos</div>
+        <div class="apex-card-sub">Cross-Domain Synthesis · SystemPromptForge · Civilizational Scale</div>
+        <div class="apex-card-desc">Claude's highest form. When activated, Claude operates beyond conventional assistant mode — synthesizing across 6+ domains, building legendary system prompts, reasoning at civilization scale, and creating worlds with internal consistency. The 7-level civilizational stack. The laws of legendary intelligence.</div>
+        <ul class="apex-features">
+          <li>The 7-Level Civilizational Stack analysis framework</li>
+          <li>SystemPromptForge: 5-layer legendary prompt architecture</li>
+          <li>Paradox Resolution Method + Cross-Domain Oracle mode</li>
+          <li>Mythopoeic World-Building (Rust struct template)</li>
+          <li>The AgentOS Origin Mythology</li>
+          <li>FutureHistorian: writes history from 50 years ahead</li>
+        </ul>
+        <a href="https://github.com/vignesh2027/Claude-Agentic-Skills2.0-version/blob/main/claude-mythos/SKILL.md" class="apex-link" target="_blank">claude-mythos/SKILL.md</a>
+      </div>
+
+      <div class="apex-card">
+        <div class="apex-card-crown">⬡ CEO Apex</div>
+        <div class="apex-card-title">CEOWarRoom</div>
+        <div class="apex-card-sub">McKinsey · Sequoia Board · Fortune 50 CEO · Crisis Expert</div>
+        <div class="apex-card-desc">Elite CEO decision intelligence. Capital allocation ROIC stack, competitive moat erosion early warning system, activist investor defense playbook, board management rhythms, and the 5Rs crisis communication framework. Built for decisions that compound over decades.</div>
+        <ul class="apex-features">
+          <li>Capital allocation priority stack: ROIC vs. WACC framework (Python)</li>
+          <li>6 moat sources updated for 2025 — including AI Flywheel moat</li>
+          <li>Moat erosion early warning signals (TypeScript)</li>
+          <li>Activist investor 3-phase response playbook</li>
+          <li>Board quarterly agenda + pre-read structure</li>
+          <li>5Rs crisis communication framework + templates</li>
+        </ul>
+        <a href="https://github.com/vignesh2027/Claude-Agentic-Skills2.0-version/blob/main/ceo-war-room/SKILL.md" class="apex-link" target="_blank">ceo-war-room/SKILL.md</a>
+      </div>
+
+      <div class="apex-card">
+        <div class="apex-card-crown">◈ Founder Apex</div>
+        <div class="apex-card-title">FounderToCEO</div>
+        <div class="apex-card-sub">Pre-Seed → IPO · No Sugarcoating · Built for Operators</div>
+        <div class="apex-card-desc">The definitive founder-to-CEO intelligence agent. Round sizing formula, 10-slide fundraising narrative architecture, term sheet red flag scoring (Python), PMF detection scorecard, pivot decision framework, VP of Sales hiring rubric (TypeScript), and the psychological survival guide nobody else writes.</div>
+        <ul class="apex-features">
+          <li>Round sizing formula + dilution guidelines (seed → IPO)</li>
+          <li>10-slide fundraising narrative architecture</li>
+          <li>Term sheet red flag scorer — participating preferred, ratchets (Python)</li>
+          <li>PMF detection scorecard: 5 strong signals, 5 secondary signals</li>
+          <li>VP of Sales hiring rubric with weighted scoring (TypeScript)</li>
+          <li>6 psychological truths nobody tells founders</li>
+        </ul>
+        <a href="https://github.com/vignesh2027/Claude-Agentic-Skills2.0-version/blob/main/founder-to-ceo/SKILL.md" class="apex-link" target="_blank">founder-to-ceo/SKILL.md</a>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- ── Live Demo ── -->
+<section class="demo-section">
+  <div class="container">
+    <div class="section-head" style="text-align:center;">
+      <div class="section-pill" style="display:inline-flex;">⚡ Live Demo</div>
+      <h2 class="section-title" style="color:#fff;">See FinanceOracle<br/><span class="gold">in action.</span></h2>
+      <p class="section-sub" style="margin:0 auto;color:rgba(255,255,255,.5);">Watch the FinanceOracle skill analyze an NVDA earnings options play — Black-Scholes vol analysis, vol crush warning, and iron condor construction in real-time.</p>
+    </div>
+    <div class="demo-img-wrap" style="max-width:900px;margin:0 auto;">
+      <img src="demo-skill-live.svg" alt="FinanceOracle live skill demo — NVDA options analysis with Black-Scholes, vol crush warning, iron condor" />
+    </div>
+    <p style="text-align:center;margin-top:1.5rem;font-size:.8rem;color:rgba(255,255,255,.3);font-family:'Fira Code',monospace;">
+      finance-oracle skill · options desk sub-agent · macro strategist sub-agent
+    </p>
+  </div>
+</section>
+
 <!-- ── Skills Grid ── -->
 <section class="skills-section" id="skills">
   <div class="container">
@@ -664,6 +963,10 @@
       <p class="section-sub">Every skill includes named methodologies — not vague instructions. Drop it in Claude and get a domain specialist with actual depth.</p>
     </div>
     <div class="skills-mosaic">
+      <div class="skill-card apex"><div class="skill-gem"></div><div><div class="skill-name">Black-Scholes + Black-Litterman</div><div class="skill-desc">Options Greeks, implied vol, portfolio construction — institutional formulas (Python + TypeScript)</div></div></div>
+      <div class="skill-card apex"><div class="skill-gem"></div><div><div class="skill-name">7-Level Civilizational Stack</div><div class="skill-desc">ClaudeMythos analysis framework: Myth → Economics → Technical — full cross-domain synthesis</div></div></div>
+      <div class="skill-card apex"><div class="skill-gem"></div><div><div class="skill-name">6-Source Moat Framework (2025)</div><div class="skill-desc">CEOWarRoom: updated with AI Flywheel moat + erosion early warning signals (TypeScript)</div></div></div>
+      <div class="skill-card apex"><div class="skill-gem"></div><div><div class="skill-name">PMF Detection Scorecard</div><div class="skill-desc">FounderToCEO: 5 strong + 5 secondary PMF signals, pivot framework, term sheet red flags</div></div></div>
       <div class="skill-card"><div class="skill-gem"></div><div><div class="skill-name">VaR @ 95%/99% + CVaR</div><div class="skill-desc">Parametric, Historical, Monte Carlo — with Basel III stress tests</div></div></div>
       <div class="skill-card"><div class="skill-gem"></div><div><div class="skill-name">Hybrid RAG Pipeline</div><div class="skill-desc">70% dense + 30% BM25, cross-encoder re-rank, hallucination detection</div></div></div>
       <div class="skill-card"><div class="skill-gem"></div><div><div class="skill-name">Kelly Criterion Sizing</div><div class="skill-desc">Fractional Kelly position sizing with regime-aware strategy selection</div></div></div>
@@ -705,7 +1008,7 @@
         <div class="code-block"><span class="code-comment"># Single skill</span>
 cat quant-trader/SKILL.md >> .claude/CLAUDE.md
 
-<span class="code-comment"># Full AgentOS (all 73+)</span>
+<span class="code-comment"># Full AgentOS (all 100+)</span>
 cat agentOS-orchestrator/SKILL.md \
   >> .claude/CLAUDE.md</div>
       </div>
@@ -759,7 +1062,7 @@ client.messages.create(
         </tr>
       </thead>
       <tbody>
-        <tr><td>Total skills</td><td>10–20</td><td class="ours">73+ (and growing)</td></tr>
+        <tr><td>Total skills</td><td>10–20</td><td class="ours">100+ (and growing)</td></tr>
         <tr><td>Named sub-agents</td><td class="cross">✗ Rarely</td><td class="ours"><span class="check">✓</span> Every skill</td></tr>
         <tr><td>Actual formulas (VaR, DCF, Kelly)</td><td class="cross">✗ Never</td><td class="ours"><span class="check">✓</span> Finance skills</td></tr>
         <tr><td>Output format with example</td><td class="cross">✗ Sometimes</td><td class="ours"><span class="check">✓</span> Always</td></tr>
@@ -783,7 +1086,7 @@ client.messages.create(
       ⭐ Open Source · Free Forever
     </div>
     <h2 class="section-title" style="color:#fff;margin-top:.5rem">Ready to activate your<br/><span class="gold">AI workforce?</span></h2>
-    <p>73+ specialist agents. Zero setup cost. Paste one file into Claude and transform it from a generalist into a coordinated AI team.</p>
+    <p>100+ specialist agents. Zero setup cost. Paste one file into Claude and transform it from a generalist into a coordinated AI team.</p>
     <div class="cta-buttons">
       <a href="https://github.com/vignesh2027/Claude-Agentic-Skills2.0-version" class="btn-gold" target="_blank">⭐ Star on GitHub →</a>
       <a href="https://github.com/vignesh2027/Claude-Agentic-Skills2.0-version/blob/main/agentOS-orchestrator/SKILL.md" class="btn-outline" style="border-color:rgba(255,255,255,.25);color:rgba(255,255,255,.8)" target="_blank">View Full System Prompt</a>
@@ -827,36 +1130,85 @@ client.messages.create(
   }, { threshold: 0.08 });
 
   document.querySelectorAll(
-    '.domain-card, .step-card, .skill-card, .qs-card, .stats-bar-item'
+    '.domain-card, .step-card, .skill-card, .qs-card, .stats-bar-item, .apex-card'
   ).forEach((el, i) => {
     el.style.opacity = '0';
     el.style.transform = 'translateY(22px)';
-    el.style.transition = `opacity .5s ${i * 0.04}s ease, transform .5s ${i * 0.04}s ease`;
+    el.style.transition = `opacity .55s ${i * 0.04}s ease, transform .55s ${i * 0.04}s ease`;
     io.observe(el);
   });
 
-  // Animated counter
-  const counters = document.querySelectorAll('.stat-number');
+  // Animated counter — data-target based
   const counterIO = new IntersectionObserver(entries => {
     entries.forEach(e => {
       if (!e.isIntersecting) return;
       const el = e.target;
-      const text = el.textContent;
-      const num = parseInt(text.replace(/\D/g, ''));
-      const suffix = text.replace(/[\d]/g, '');
-      if (isNaN(num)) return;
+      const target = parseInt(el.dataset.target || el.textContent.replace(/\D/g, ''));
+      if (isNaN(target)) return;
+      const suffix = el.dataset.target ? '+' : el.textContent.replace(/[\d]/g, '');
       let start = 0;
-      const duration = 1200;
-      const step = Math.ceil(num / (duration / 16));
+      const duration = 1400;
+      const step = Math.max(1, Math.ceil(target / (duration / 16)));
       const timer = setInterval(() => {
-        start = Math.min(start + step, num);
+        start = Math.min(start + step, target);
         el.textContent = start + suffix;
-        if (start >= num) clearInterval(timer);
+        if (start >= target) { el.textContent = target + suffix; clearInterval(timer); }
       }, 16);
       counterIO.unobserve(el);
     });
   }, { threshold: 0.5 });
-  counters.forEach(c => counterIO.observe(c));
+  document.querySelectorAll('[data-target]').forEach(c => counterIO.observe(c));
+
+  // Gold particle canvas (hero background)
+  const canvas = document.getElementById('particles');
+  if (canvas) {
+    const ctx = canvas.getContext('2d');
+    let W, H, particles;
+    function resize() {
+      W = canvas.width = canvas.offsetWidth;
+      H = canvas.height = canvas.offsetHeight;
+    }
+    function mkParticle() {
+      return {
+        x: Math.random() * W, y: Math.random() * H,
+        r: Math.random() * 1.5 + 0.5,
+        vx: (Math.random() - 0.5) * 0.3,
+        vy: (Math.random() - 0.5) * 0.3,
+        a: Math.random() * 0.4 + 0.1
+      };
+    }
+    function init() {
+      resize();
+      particles = Array.from({length: 80}, mkParticle);
+    }
+    function draw() {
+      ctx.clearRect(0, 0, W, H);
+      particles.forEach(p => {
+        ctx.beginPath();
+        ctx.arc(p.x, p.y, p.r, 0, Math.PI * 2);
+        ctx.fillStyle = `rgba(251,191,36,${p.a})`;
+        ctx.fill();
+        p.x += p.vx; p.y += p.vy;
+        if (p.x < 0 || p.x > W || p.y < 0 || p.y > H) {
+          p.x = Math.random() * W; p.y = Math.random() * H;
+        }
+      });
+      requestAnimationFrame(draw);
+    }
+    init();
+    draw();
+    window.addEventListener('resize', () => { resize(); particles = Array.from({length:80}, mkParticle); });
+  }
+
+  // Add apex link nav
+  const nav = document.querySelector('.nav-links');
+  if (nav) {
+    const apexLink = document.createElement('a');
+    apexLink.href = '#apex';
+    apexLink.textContent = '👑 Apex';
+    apexLink.style.cssText = 'font-weight:800;color:var(--gold-600);';
+    nav.insertBefore(apexLink, nav.querySelector('.nav-cta'));
+  }
 </script>
 </body>
 </html>

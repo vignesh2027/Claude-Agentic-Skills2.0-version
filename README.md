@@ -6,14 +6,14 @@
 
 <div align="center">
 
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=19&pause=1200&color=D97706&center=true&vCenter=true&multiline=false&width=820&height=50&lines=96%2B+specialist+Claude+Skills+across+10+domains;Finance+%E2%80%A2+Engineering+%E2%80%A2+Data+%E2%80%A2+Legal+%E2%80%A2+Healthcare+%E2%80%A2+Web3+%E2%80%A2+Biotech;Each+skill+is+a+standalone+SKILL.md+you+drop+into+Claude;Deeper+frameworks+than+any+other+Claude+Skills+repo)](https://git.io/typing-svg)
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=19&pause=1200&color=D97706&center=true&vCenter=true&multiline=false&width=820&height=50&lines=100%2B+specialist+Claude+Skills+across+10+domains;Finance+%E2%80%A2+Engineering+%E2%80%A2+Data+%E2%80%A2+Legal+%E2%80%A2+Healthcare+%E2%80%A2+Web3+%E2%80%A2+Biotech;Each+skill+is+a+standalone+SKILL.md+you+drop+into+Claude;Deeper+frameworks+than+any+other+Claude+Skills+repo)](https://git.io/typing-svg)
 
 <br/>
 
 [![Stars](https://img.shields.io/github/stars/vignesh2027/Claude-Agentic-Skills2.0-version?style=for-the-badge&logo=starship&color=fbbf24&logoColor=white&label=Stars)](https://github.com/vignesh2027/Claude-Agentic-Skills2.0-version/stargazers)
 [![Forks](https://img.shields.io/github/forks/vignesh2027/Claude-Agentic-Skills2.0-version?style=for-the-badge&logo=github&color=d97706&logoColor=white)](https://github.com/vignesh2027/Claude-Agentic-Skills2.0-version/network/members)
 [![License](https://img.shields.io/badge/License-MIT-92400e?style=for-the-badge&logo=opensourceinitiative&logoColor=white)](LICENSE)
-[![Skills](https://img.shields.io/badge/Skills-96%2B-b45309?style=for-the-badge&logo=bookstack&logoColor=white)](#skills-index)
+[![Skills](https://img.shields.io/badge/Skills-100%2B-b45309?style=for-the-badge&logo=bookstack&logoColor=white)](#skills-index)
 [![Claude](https://img.shields.io/badge/Claude-4.x-fbbf24?style=for-the-badge&logo=anthropic&logoColor=black)](https://claude.ai)
 [![Format](https://img.shields.io/badge/Claude_Skills_Format-Compatible-78350f?style=for-the-badge)](prompts/)
 [![PRs Welcome](https://img.shields.io/badge/PRs-Welcome-22c55e?style=for-the-badge&logo=github)](CONTRIBUTING.md)
@@ -86,10 +86,25 @@ Paste any `SKILL.md` content into `.cursor/rules`, `.windsurfrules`, or your IDE
 
 ## Skills Index
 
-### 💹 Finance & Investment (8 Skills)
+> **4 LEGENDARY SKILLS — The Apex of AgentOS:**
+> [`finance-oracle`](finance-oracle/SKILL.md) · [`claude-mythos`](claude-mythos/SKILL.md) · [`ceo-war-room`](ceo-war-room/SKILL.md) · [`founder-to-ceo`](founder-to-ceo/SKILL.md)
+
+### 🏆 Apex Tier — The 4 Legendary Skills
 
 | Skill | What It Does |
 |-------|-------------|
+| [finance-oracle](finance-oracle/SKILL.md) | **Goldman + Bridgewater + Citadel in one skill.** Black-Scholes, Black-Litterman, risk parity, fixed income, hedge fund strategies, family office endowment model, tax optimization — every formula. |
+| [claude-mythos](claude-mythos/SKILL.md) | **Claude's highest form.** Cross-domain synthesis at civilization scale, the SystemPromptForge, 7-level civilizational stack analysis, mythic world-building, AgentOS lore. The apex intelligence. |
+| [ceo-war-room](ceo-war-room/SKILL.md) | **McKinsey + Sequoia board partner + Fortune 50 CEO.** Capital allocation ROIC stack, moat erosion early warning, activist investor defense playbook, board management, crisis comms 5Rs. |
+| [founder-to-ceo](founder-to-ceo/SKILL.md) | **Pre-seed to IPO, no sugarcoating.** PMF detection scorecard, term sheet red flags (Python), pivot framework, founder mode vs. manager mode, VP of Sales hiring rubric, psychological survival guide. |
+
+---
+
+### 💹 Finance & Investment (9 Skills)
+
+| Skill | What It Does |
+|-------|-------------|
+| [finance-oracle](finance-oracle/SKILL.md) | **APEX** — Black-Scholes, Black-Litterman, risk parity, fixed income analytics, hedge fund strategies, family office, tax optimization — institutional-grade across every asset class |
 | [quant-trader](quant-trader/SKILL.md) | JSON trade signals with entry/target/stop/R:R, Kelly sizing, regime detection (trending/ranging/volatile) |
 | [cfo-intelligence](cfo-intelligence/SKILL.md) | P&L parsing, 3-statement financial model, budget variance root cause, board-ready summaries |
 | [risk-sentinel](risk-sentinel/SKILL.md) | VaR (95%/99%), CVaR, Monte Carlo, ISO 31000 + COSO ERM, risk heat map, KRIs |
@@ -133,10 +148,21 @@ Paste any `SKILL.md` content into `.cursor/rules`, `.windsurfrules`, or your IDE
 | [synthetic-data-generator](synthetic-data-generator/SKILL.md) | CTGAN/Gaussian copulas for tabular data, differential privacy, statistical fidelity audit |
 | [arxiv-researcher](arxiv-researcher/SKILL.md) | Academic paper deconstruction, SOTA comparison tables, red flags checklist, literature reviews |
 
-### 🏢 Operations & Business (12 Skills)
+---
+
+<div align="center">
+<img src="demo-skill-live.svg" width="100%" alt="FinanceOracle live demo — NVDA options analysis" />
+<sub><i>Live demo: FinanceOracle analyzing an NVDA earnings options play in real-time</i></sub>
+</div>
+
+---
+
+### 🏢 Operations & Business (14 Skills)
 
 | Skill | What It Does |
 |-------|-------------|
+| [ceo-war-room](ceo-war-room/SKILL.md) | **APEX CEO** — Capital allocation ROIC stack, moat erosion early warning, activist defense, board management, crisis comms |
+| [founder-to-ceo](founder-to-ceo/SKILL.md) | **APEX FOUNDER** — Pre-seed to IPO playbook, PMF scorecard, term sheet red flags, founder mode framework, exec hiring |
 | [product-strategy](product-strategy/SKILL.md) | Full PRD writing, RICE scoring, north star metric, LTV/CAC, competitive positioning |
 | [sales-intelligence](sales-intelligence/SKILL.md) | ICP scoring, 5-touch sequences, MEDDPICC deal health, bottom-up sales forecasting |
 | [b2b-sales-playbook](b2b-sales-playbook/SKILL.md) | Enterprise deal navigation, MEDDPICC, discovery call framework, business case writing |
@@ -210,11 +236,12 @@ Paste any `SKILL.md` content into `.cursor/rules`, `.windsurfrules`, or your IDE
 | [contract-drafter](contract-drafter/SKILL.md) | Commercial contract drafting, NDA templates, SaaS agreement key terms, redlining guide |
 | [ui-ux-designer](ui-ux-designer/SKILL.md) | Nielsen's 10 heuristics, WCAG 2.1 AA, user flow friction scoring, design system specs |
 
-### 🎛 Orchestration (1 Skill)
+### 🎛 Orchestration & Meta-Intelligence (2 Skills)
 
 | Skill | What It Does |
 |-------|-------------|
-| [agentOS-orchestrator](agentOS-orchestrator/SKILL.md) | Activates ALL 96+ agents — auto-routes tasks, decomposes work, synthesizes outputs |
+| [agentOS-orchestrator](agentOS-orchestrator/SKILL.md) | Activates ALL 100+ agents — auto-routes tasks, decomposes work, synthesizes outputs |
+| [claude-mythos](claude-mythos/SKILL.md) | **APEX INTELLIGENCE** — Cross-domain synthesis, SystemPromptForge, 7-level civilizational stack, mythic world-building, AgentOS lore — Claude's highest form |
 
 ---
 
@@ -231,7 +258,8 @@ Paste any `SKILL.md` content into `.cursor/rules`, `.windsurfrules`, or your IDE
 | Domain-specific frameworks | Never | STRIDE, COSO, HEDIS, MEDDPICC, ATT&CK, TCFD |
 | Finance depth | None | Institutional-grade |
 | New 2025-era agents | N/A | VoiceAgent, AIRedTeamer, KnowledgeGraph, SyntheticData, IncidentCommander, LoadTester |
-| Total skills | ~10-20 | **96+** |
+| Apex/Legendary tier | None | **FinanceOracle, ClaudeMythos, CEOWarRoom, FounderToCEO** |
+| Total skills | ~10-20 | **100+** |
 
 ---
 
