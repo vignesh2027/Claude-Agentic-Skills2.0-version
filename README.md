@@ -1,19 +1,19 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:1a0a00,30:3d1a00,70:7c3000,100:b45309&height=260&section=header&text=AgentOS%202.0&fontSize=80&fontColor=ffffff&animation=twinkling&fontAlignY=38&desc=73%2B%20Production%20Claude%20Skills%20%E2%80%94%20The%20Most%20Complete%20Multi-Agent%20AI%20Skills%20Repository&descAlignY=62&descColor=fbbf24&descSize=15" width="100%" />
+<img src="demo-banner.svg" width="100%" alt="AgentOS 2.0 — The Claude Skill Operating System" />
 
 </div>
 
 <div align="center">
 
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=19&pause=1200&color=D97706&center=true&vCenter=true&multiline=false&width=820&height=50&lines=73%2B+specialist+Claude+Skills+across+10+domains;Finance+%E2%80%A2+Engineering+%E2%80%A2+Data+%E2%80%A2+Legal+%E2%80%A2+Healthcare+%E2%80%A2+Web3+%E2%80%A2+Biotech;Each+skill+is+a+standalone+SKILL.md+you+drop+into+Claude;Deeper+frameworks+than+any+other+Claude+Skills+repo)](https://git.io/typing-svg)
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=19&pause=1200&color=D97706&center=true&vCenter=true&multiline=false&width=820&height=50&lines=96%2B+specialist+Claude+Skills+across+10+domains;Finance+%E2%80%A2+Engineering+%E2%80%A2+Data+%E2%80%A2+Legal+%E2%80%A2+Healthcare+%E2%80%A2+Web3+%E2%80%A2+Biotech;Each+skill+is+a+standalone+SKILL.md+you+drop+into+Claude;Deeper+frameworks+than+any+other+Claude+Skills+repo)](https://git.io/typing-svg)
 
 <br/>
 
 [![Stars](https://img.shields.io/github/stars/vignesh2027/Claude-Agentic-Skills2.0-version?style=for-the-badge&logo=starship&color=fbbf24&logoColor=white&label=Stars)](https://github.com/vignesh2027/Claude-Agentic-Skills2.0-version/stargazers)
 [![Forks](https://img.shields.io/github/forks/vignesh2027/Claude-Agentic-Skills2.0-version?style=for-the-badge&logo=github&color=d97706&logoColor=white)](https://github.com/vignesh2027/Claude-Agentic-Skills2.0-version/network/members)
 [![License](https://img.shields.io/badge/License-MIT-92400e?style=for-the-badge&logo=opensourceinitiative&logoColor=white)](LICENSE)
-[![Skills](https://img.shields.io/badge/Skills-73%2B-b45309?style=for-the-badge&logo=bookstack&logoColor=white)](#skills-index)
+[![Skills](https://img.shields.io/badge/Skills-96%2B-b45309?style=for-the-badge&logo=bookstack&logoColor=white)](#skills-index)
 [![Claude](https://img.shields.io/badge/Claude-4.x-fbbf24?style=for-the-badge&logo=anthropic&logoColor=black)](https://claude.ai)
 [![Format](https://img.shields.io/badge/Claude_Skills_Format-Compatible-78350f?style=for-the-badge)](prompts/)
 [![PRs Welcome](https://img.shields.io/badge/PRs-Welcome-22c55e?style=for-the-badge&logo=github)](CONTRIBUTING.md)
@@ -22,7 +22,7 @@
 
 ---
 
-> **AgentOS 2.0** is the world's most comprehensive collection of production-grade Claude Skills — modular AI agents you drop into Claude to unlock institutional-depth expertise across finance, engineering, data science, legal, healthcare, Web3, biotech, climate, and more.
+> **AgentOS 2.0** is the world's most comprehensive collection of production-grade Claude Skills — **96+ modular AI agents** you drop into Claude to unlock institutional-depth expertise across finance, engineering, data science, legal, healthcare, Web3, biotech, climate, and more.
 
 ---
 
@@ -43,7 +43,7 @@ cat quant-trader/SKILL.md >> .claude/CLAUDE.md
 # Multiple skills
 cat senior-dev/SKILL.md rag-architect/SKILL.md >> .claude/CLAUDE.md
 
-# Full AgentOS (all 73+ agents)
+# Full AgentOS (all 96+ agents)
 cat agentOS-orchestrator/SKILL.md >> .claude/CLAUDE.md
 ```
 
@@ -99,7 +99,7 @@ Paste any `SKILL.md` content into `.cursor/rules`, `.windsurfrules`, or your IDE
 | [esg-compass](esg-compass/SKILL.md) | Scope 1/2/3, 20-metric ESG scoring, TCFD/SFDR compliance, net-zero pathway |
 | [compliance-ai](compliance-ai/SKILL.md) | KYC/AML/PEP screening, transaction monitoring, SOX/PCI/GDPR audit prep |
 
-### 🤖 AI & Engineering (10 Skills)
+### 🤖 AI & Engineering (14 Skills)
 
 | Skill | What It Does |
 |-------|-------------|
@@ -113,8 +113,12 @@ Paste any `SKILL.md` content into `.cursor/rules`, `.windsurfrules`, or your IDE
 | [api-integrator](api-integrator/SKILL.md) | OpenAPI 3.0, OAuth 2.0, HMAC webhook verification, n8n/Zapier automation patterns |
 | [prompt-engineer](prompt-engineer/SKILL.md) | System prompt design, few-shot examples, CoT, eval frameworks, injection prevention |
 | [mcp-builder](mcp-builder/SKILL.md) | MCP server design in Python + TypeScript, tool/resource/prompt primitives, Claude Desktop config |
+| [voice-agent-builder](voice-agent-builder/SKILL.md) | Sub-300ms voice AI pipelines: Deepgram ASR → Claude → ElevenLabs TTS, Twilio/Vapi telephony |
+| [knowledge-graph-builder](knowledge-graph-builder/SKILL.md) | Entity extraction, Neo4j/RDF graph construction, Cypher queries, GraphRAG multi-hop reasoning |
+| [ai-red-teamer](ai-red-teamer/SKILL.md) | Adversarial LLM testing: OWASP LLM Top 10, jailbreak taxonomy, P0-P3 severity ratings |
+| [incident-commander](incident-commander/SKILL.md) | Production incident response: SEV1-4 triage, 5-Whys post-mortem, runbooks, stakeholder comms |
 
-### 📊 Data & Analytics (8 Skills)
+### 📊 Data & Analytics (10 Skills)
 
 | Skill | What It Does |
 |-------|-------------|
@@ -126,6 +130,8 @@ Paste any `SKILL.md` content into `.cursor/rules`, `.windsurfrules`, or your IDE
 | [abtest-scientist](abtest-scientist/SKILL.md) | Power analysis, Bayesian/frequentist, Bonferroni/BH correction, DiD, synthetic control |
 | [sql-analyzer](sql-analyzer/SKILL.md) | Query optimization, window functions, recursive CTEs, N+1 elimination, index strategy |
 | [data-governance-agent](data-governance-agent/SKILL.md) | Data catalog, PII classification tiers, data quality scoring, GDPR retention policies |
+| [synthetic-data-generator](synthetic-data-generator/SKILL.md) | CTGAN/Gaussian copulas for tabular data, differential privacy, statistical fidelity audit |
+| [arxiv-researcher](arxiv-researcher/SKILL.md) | Academic paper deconstruction, SOTA comparison tables, red flags checklist, literature reviews |
 
 ### 🏢 Operations & Business (12 Skills)
 
@@ -144,7 +150,7 @@ Paste any `SKILL.md` content into `.cursor/rules`, `.windsurfrules`, or your IDE
 | [saas-metrics-analyst](saas-metrics-analyst/SKILL.md) | ARR/MRR, GRR/NRR, LTV/CAC, Rule of 40, magic number, benchmarks by ARR stage |
 | [financial-model-builder](financial-model-builder/SKILL.md) | 3-statement model, revenue driver models, sensitivity tables, scenario switcher |
 
-### 📝 Content, Research & Growth (9 Skills)
+### 📝 Content, Research & Growth (12 Skills)
 
 | Skill | What It Does |
 |-------|-------------|
@@ -157,6 +163,9 @@ Paste any `SKILL.md` content into `.cursor/rules`, `.windsurfrules`, or your IDE
 | [newsletter-engine](newsletter-engine/SKILL.md) | Subject line formulas, 7-email onboarding sequence, referral mechanics, open rate benchmarks |
 | [seo-auditor](seo-auditor/SKILL.md) | Technical SEO audit, Core Web Vitals, keyword gap analysis, on-page optimization checklist |
 | [developer-advocate](developer-advocate/SKILL.md) | DevRel strategy, technical blog structure, community metrics, conference talk proposals |
+| [podcast-producer](podcast-producer/SKILL.md) | Full episode scripts, show notes, SEO metadata, thumbnail briefs, weekly content calendar |
+| [video-content-creator](video-content-creator/SKILL.md) | YouTube/TikTok scripts, hook formulas, thumbnail composition, channel SEO, content calendar |
+| [arxiv-researcher](arxiv-researcher/SKILL.md) | Academic paper analysis, SOTA comparison, reproduction notes, critical evaluation framework |
 
 ### 🌐 Specialized Domains (12 Skills)
 
@@ -175,7 +184,7 @@ Paste any `SKILL.md` content into `.cursor/rules`, `.windsurfrules`, or your IDE
 | [cybersecurity-analyst](cybersecurity-analyst/SKILL.md) | MITRE ATT&CK mapping, threat hunting hypotheses, DFIR phases, threat intel reports |
 | [supply-chain-optimizer](supply-chain-optimizer/SKILL.md) | Network design, center of gravity, last-mile cost, digital twin, FTZ compliance |
 
-### 🛠 Developer Tools & Productivity (9 Skills)
+### 🛠 Developer Tools & Productivity (13 Skills)
 
 | Skill | What It Does |
 |-------|-------------|
@@ -187,6 +196,8 @@ Paste any `SKILL.md` content into `.cursor/rules`, `.windsurfrules`, or your IDE
 | [github-intelligence](github-intelligence/SKILL.md) | Repo health scoring, bus factor analysis, SEO optimization, star growth playbook |
 | [multi-modal-analyst](multi-modal-analyst/SKILL.md) | Chart extraction, UI screenshot analysis, architecture diagram review, scanned doc OCR |
 | [agentic-workflow-builder](agentic-workflow-builder/SKILL.md) | ReAct/Plan-Execute patterns, HITL approval gates, error recovery, cost control |
+| [load-tester](load-tester/SKILL.md) | k6/Locust scripts, P50/P95/P99 SLA validation, bottleneck identification, scaling recommendations |
+| [code-migrator](code-migrator/SKILL.md) | Framework/language migrations: JS→TS, React class→hooks, monolith→microservices, phased playbook |
 | [mcp-builder](mcp-builder/SKILL.md) | MCP server in Python/TypeScript, tool schemas, Claude Desktop config, resources/prompts |
 
 ### 👤 Customer & Product (5 Skills)
@@ -203,7 +214,7 @@ Paste any `SKILL.md` content into `.cursor/rules`, `.windsurfrules`, or your IDE
 
 | Skill | What It Does |
 |-------|-------------|
-| [agentOS-orchestrator](agentOS-orchestrator/SKILL.md) | Activates ALL 73+ agents — auto-routes tasks, decomposes work, synthesizes outputs |
+| [agentOS-orchestrator](agentOS-orchestrator/SKILL.md) | Activates ALL 96+ agents — auto-routes tasks, decomposes work, synthesizes outputs |
 
 ---
 
@@ -219,8 +230,8 @@ Paste any `SKILL.md` content into `.cursor/rules`, `.windsurfrules`, or your IDE
 | Forbidden behaviors / constraints | Never | Every skill |
 | Domain-specific frameworks | Never | STRIDE, COSO, HEDIS, MEDDPICC, ATT&CK, TCFD |
 | Finance depth | None | Institutional-grade |
-| New 2025-era agents | N/A | PromptEngineer, MCP-Builder, BiotechAnalyst, ClimateTech, CybersecurityAnalyst |
-| Total skills | ~10-20 | **73+** |
+| New 2025-era agents | N/A | VoiceAgent, AIRedTeamer, KnowledgeGraph, SyntheticData, IncidentCommander, LoadTester |
+| Total skills | ~10-20 | **96+** |
 
 ---
 
