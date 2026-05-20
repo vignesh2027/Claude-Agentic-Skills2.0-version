@@ -6,7 +6,7 @@
 
 <div align="center">
 
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=19&pause=1200&color=D97706&center=true&vCenter=true&multiline=false&width=820&height=50&lines=100%2B+specialist+Claude+Skills+across+10+domains;Finance+%E2%80%A2+Engineering+%E2%80%A2+Data+%E2%80%A2+Legal+%E2%80%A2+Healthcare+%E2%80%A2+Web3+%E2%80%A2+Biotech;Each+skill+is+a+standalone+SKILL.md+you+drop+into+Claude;Deeper+frameworks+than+any+other+Claude+Skills+repo)](https://git.io/typing-svg)
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=19&pause=1200&color=D97706&center=true&vCenter=true&multiline=false&width=820&height=50&lines=135%2B+specialist+Claude+Skills+across+12+domains;Finance+%E2%80%A2+Engineering+%E2%80%A2+Data+%E2%80%A2+Legal+%E2%80%A2+Healthcare+%E2%80%A2+Web3+%E2%80%A2+Biotech;Each+skill+is+a+standalone+SKILL.md+you+drop+into+Claude;Deeper+frameworks+than+any+other+Claude+Skills+repo)](https://git.io/typing-svg)
 
 <br/>
 
@@ -26,7 +26,7 @@
 <img src="demo-stats.svg" width="100%" alt="AgentOS 2.0 — 100+ Skills · 4 Apex Legends · 10 Domains · MIT" />
 </div>
 
-> **AgentOS 2.0** is the world's most comprehensive collection of production-grade Claude Skills — **100+ modular AI agents** you drop into Claude to unlock institutional-depth expertise across finance, engineering, data science, legal, healthcare, Web3, biotech, climate, CEO strategy, and more.
+> **AgentOS 2.0** is the world's most comprehensive collection of production-grade Claude Skills — **135+ modular AI agents** you drop into Claude to unlock institutional-depth expertise across finance, engineering, data science, legal, healthcare, Web3, biotech, climate, CEO strategy, startup management, and more.
 
 ---
 
@@ -165,7 +165,23 @@ Paste any `SKILL.md` content into `.cursor/rules`, `.windsurfrules`, or your IDE
 
 ---
 
-### 🏢 Operations & Business (14 Skills)
+### 🚀 Startup & Team Management (11 Skills)
+
+| Skill | What It Does |
+|-------|-------------|
+| [startup-cto](startup-cto/SKILL.md) | Complete CTO intelligence — tech stack decisions, DORA metrics, ADR templates, tech debt scoring, hiring bar |
+| [team-performance-os](team-performance-os/SKILL.md) | Full team performance OS — OKRs, 1:1 frameworks, performance reviews, eNPS, SBI feedback, PIP design |
+| [startup-hiring-machine](startup-hiring-machine/SKILL.md) | End-to-end hiring — funnel metrics, scorecard design, equity calculator, offer strategy, bias auditing |
+| [culture-architect](culture-architect/SKILL.md) | Company culture OS — values design, ritual building, culture decay detection, M&A culture integration |
+| [remote-team-commander](remote-team-commander/SKILL.md) | Remote work OS — async comms charter, time zone fairness score, burnout detection, distributed rituals |
+| [okr-engine](okr-engine/SKILL.md) | Complete OKR system — objective quality scorer, cascade design, 12 anti-patterns, scoring cadence |
+| [startup-finance-controller](startup-finance-controller/SKILL.md) | Fractional CFO intelligence — runway guardian, unit economics, burn multiple, SaaS benchmarks, exit modeling |
+| [venture-intelligence](venture-intelligence/SKILL.md) | Full VC fundraising OS — investor profiling, term sheet red flag scorer, valuation negotiation, board dynamics |
+| [startup-legal-shield](startup-legal-shield/SKILL.md) | Startup legal OS — incorporation, cap table, IP protection, contractor classification, GDPR, SAFE mechanics |
+| [talent-management-os](talent-management-os/SKILL.md) | Talent at scale — 9-box matrix, succession planning, skills gap analysis, HiPo programs, stay interviews |
+| [talent-brand-builder](talent-brand-builder/SKILL.md) | Employer brand — EVP design, Glassdoor strategy, employee advocacy, compensation transparency, DEI narrative |
+
+### 🏢 Operations & Business (20 Skills)
 
 | Skill | What It Does |
 |-------|-------------|
@@ -183,8 +199,14 @@ Paste any `SKILL.md` content into `.cursor/rules`, `.windsurfrules`, or your IDE
 | [pricing-strategist](pricing-strategist/SKILL.md) | Pricing model selection, value-based design, Van Westendorp research, price change modeling |
 | [saas-metrics-analyst](saas-metrics-analyst/SKILL.md) | ARR/MRR, GRR/NRR, LTV/CAC, Rule of 40, magic number, benchmarks by ARR stage |
 | [financial-model-builder](financial-model-builder/SKILL.md) | 3-statement model, revenue driver models, sensitivity tables, scenario switcher |
+| [go-to-market-commander](go-to-market-commander/SKILL.md) | Full GTM OS — ICP scoring, GTM motion selector (PLG/SLG/DLG), channel efficiency matrix, launch playbooks |
+| [enterprise-sales-os](enterprise-sales-os/SKILL.md) | Enterprise sales — MEDDPICC scorer, multi-threading risk, champion development, POC design, forecasting |
+| [sales-enablement-os](sales-enablement-os/SKILL.md) | Sales productivity — rep readiness score, discovery question bank, battlecards, comp model design |
+| [board-deck-builder](board-deck-builder/SKILL.md) | Board meeting OS — deck architecture, metrics variance explainer, pre-wiring protocol, bad news delivery |
+| [crisis-intelligence](crisis-intelligence/SKILL.md) | Crisis management — severity classifier, war room playbook, 5Rs comms framework, data breach response |
+| [partnership-intelligence](partnership-intelligence/SKILL.md) | BD intelligence — deal ROI calculator, partner tier model, term sheet checklist, channel partner programs |
 
-### 📝 Content, Research & Growth (12 Skills)
+### 📝 Content, Research & Growth (14 Skills)
 
 | Skill | What It Does |
 |-------|-------------|
@@ -200,6 +222,8 @@ Paste any `SKILL.md` content into `.cursor/rules`, `.windsurfrules`, or your IDE
 | [podcast-producer](podcast-producer/SKILL.md) | Full episode scripts, show notes, SEO metadata, thumbnail briefs, weekly content calendar |
 | [video-content-creator](video-content-creator/SKILL.md) | YouTube/TikTok scripts, hook formulas, thumbnail composition, channel SEO, content calendar |
 | [arxiv-researcher](arxiv-researcher/SKILL.md) | Academic paper analysis, SOTA comparison, reproduction notes, critical evaluation framework |
+| [content-ops-os](content-ops-os/SKILL.md) | Content machine — SEO content engine, pillar strategy, editorial calendar, repurposing system, content ROI |
+| [community-builder](community-builder/SKILL.md) | Community OS — Discord architecture, onboarding design, ambassador programs, health score, CLG engine |
 
 ### 🌐 Specialized Domains (12 Skills)
 
@@ -233,8 +257,14 @@ Paste any `SKILL.md` content into `.cursor/rules`, `.windsurfrules`, or your IDE
 | [load-tester](load-tester/SKILL.md) | k6/Locust scripts, P50/P95/P99 SLA validation, bottleneck identification, scaling recommendations |
 | [code-migrator](code-migrator/SKILL.md) | Framework/language migrations: JS→TS, React class→hooks, monolith→microservices, phased playbook |
 | [mcp-builder](mcp-builder/SKILL.md) | MCP server in Python/TypeScript, tool schemas, Claude Desktop config, resources/prompts |
+| [developer-experience-os](developer-experience-os/SKILL.md) | DX OS — SDK design, 5-minute test protocol, webhook HMAC verification, API ergonomics audit |
+| [api-design-architect](api-design-architect/SKILL.md) | API design — REST/GraphQL/gRPC, cursor pagination, OpenAPI linting, auth patterns, versioning |
+| [data-warehouse-architect](data-warehouse-architect/SKILL.md) | Modern data stack — dbt modeling, ingestion pipelines, warehouse cost optimization, data quality |
+| [cloud-cost-optimizer](cloud-cost-optimizer/SKILL.md) | FinOps — cloud health score, quick wins bash scripts, RI strategy, Kubernetes cost, LLM API costs |
+| [design-system-architect](design-system-architect/SKILL.md) | Design systems — token hierarchy, component API design, Figma sync, accessibility standards, governance |
+| [technical-pm](technical-pm/SKILL.md) | TPM OS — program health score, RAID log, critical path, dependency map, launch readiness checklist |
 
-### 👤 Customer & Product (5 Skills)
+### 👤 Customer & Product (11 Skills)
 
 | Skill | What It Does |
 |-------|-------------|
@@ -243,12 +273,22 @@ Paste any `SKILL.md` content into `.cursor/rules`, `.windsurfrules`, or your IDE
 | [customer-segmentation](customer-segmentation/SKILL.md) — *coming soon* | RFM analysis, behavioral segmentation, ICP scoring, persona development |
 | [contract-drafter](contract-drafter/SKILL.md) | Commercial contract drafting, NDA templates, SaaS agreement key terms, redlining guide |
 | [ui-ux-designer](ui-ux-designer/SKILL.md) | Nielsen's 10 heuristics, WCAG 2.1 AA, user flow friction scoring, design system specs |
+| [product-roadmap-os](product-roadmap-os/SKILL.md) | Product roadmap — RICE scorer, Now/Next/Later template, opportunity sizing, dependency mapping |
+| [sprint-master](sprint-master/SKILL.md) | Agile OS — sprint health score, story splitting INVEST, velocity trend analysis, Kanban WIP limits |
+| [engineering-manager](engineering-manager/SKILL.md) | EM intelligence — team health, 1:1 agendas, DORA metrics script, IC-to-manager transition |
+| [ai-product-manager](ai-product-manager/SKILL.md) | AI-native PM — feature decision framework, LLM cost calculator, eval rubrics, RAG product design |
+| [user-research-os](user-research-os/SKILL.md) | UX research — method selector, JTBD interview guide, usability severity matrix, insight synthesis |
+| [customer-interview-analyst](customer-interview-analyst/SKILL.md) | Customer interviews — Mom Test validation, win/loss frameworks, churn interviews, continuous discovery |
+| [product-analytics-os](product-analytics-os/SKILL.md) | Product analytics — NSM validator, retention cohort builder, funnel analysis, event instrumentation |
+| [network-effects-analyst](network-effects-analyst/SKILL.md) | Network effects — strength score, k-factor optimizer, type matrix, disintermediation defense |
+| [marketplace-strategist](marketplace-strategist/SKILL.md) | Marketplace OS — liquidity score, cold start playbook, take rate benchmarks, trust & safety systems |
+| [performance-marketing-os](performance-marketing-os/SKILL.md) | Performance marketing — CAC unit economics, A/B test significance, attribution modeling, creative strategy |
 
 ### 🎛 Orchestration & Meta-Intelligence (2 Skills)
 
 | Skill | What It Does |
 |-------|-------------|
-| [agentOS-orchestrator](agentOS-orchestrator/SKILL.md) | Activates ALL 100+ agents — auto-routes tasks, decomposes work, synthesizes outputs |
+| [agentOS-orchestrator](agentOS-orchestrator/SKILL.md) | Activates ALL 135+ agents — auto-routes tasks, decomposes work, synthesizes outputs |
 | [claude-mythos](claude-mythos/SKILL.md) | **APEX INTELLIGENCE** — Cross-domain synthesis, SystemPromptForge, 7-level civilizational stack, mythic world-building, AgentOS lore — Claude's highest form |
 
 ---
@@ -267,7 +307,7 @@ Paste any `SKILL.md` content into `.cursor/rules`, `.windsurfrules`, or your IDE
 | Finance depth | None | Institutional-grade |
 | New 2025-era agents | N/A | VoiceAgent, AIRedTeamer, KnowledgeGraph, SyntheticData, IncidentCommander, LoadTester |
 | Apex/Legendary tier | None | **FinanceOracle, ClaudeMythos, CEOWarRoom, FounderToCEO** |
-| Total skills | ~10-20 | **100+** |
+| Total skills | ~10-20 | **135+** |
 
 ---
 
