@@ -22,7 +22,11 @@
 
 ---
 
-> **AgentOS 2.0** is the world's most comprehensive collection of production-grade Claude Skills — **96+ modular AI agents** you drop into Claude to unlock institutional-depth expertise across finance, engineering, data science, legal, healthcare, Web3, biotech, climate, and more.
+<div align="center">
+<img src="demo-stats.svg" width="100%" alt="AgentOS 2.0 — 100+ Skills · 4 Apex Legends · 10 Domains · MIT" />
+</div>
+
+> **AgentOS 2.0** is the world's most comprehensive collection of production-grade Claude Skills — **100+ modular AI agents** you drop into Claude to unlock institutional-depth expertise across finance, engineering, data science, legal, healthcare, Web3, biotech, climate, CEO strategy, and more.
 
 ---
 
@@ -85,6 +89,10 @@ Paste any `SKILL.md` content into `.cursor/rules`, `.windsurfrules`, or your IDE
 ---
 
 ## Skills Index
+
+<div align="center">
+<img src="demo-apex-showcase.svg" width="100%" alt="The 4 Apex Legendary Skills — FinanceOracle · ClaudeMythos · CEOWarRoom · FounderToCEO" />
+</div>
 
 > **4 LEGENDARY SKILLS — The Apex of AgentOS:**
 > [`finance-oracle`](finance-oracle/SKILL.md) · [`claude-mythos`](claude-mythos/SKILL.md) · [`ceo-war-room`](ceo-war-room/SKILL.md) · [`founder-to-ceo`](founder-to-ceo/SKILL.md)
