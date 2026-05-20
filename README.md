@@ -1,213 +1,230 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:1a0a00,50:3d1a00,100:7c3000&height=240&section=header&text=AgentOS%202.0&fontSize=76&fontColor=ffffff&animation=twinkling&fontAlignY=38&desc=The%20World%27s%20Most%20Advanced%20Multi-Agent%20AI%20Operating%20System&descAlignY=62&descColor=fbbf24&descSize=18" width="100%" />
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:1a0a00,50:3d1a00,100:7c3000&height=240&section=header&text=AgentOS%202.0&fontSize=76&fontColor=ffffff&animation=twinkling&fontAlignY=38&desc=50%2B%20Production%20Claude%20Skills%20%E2%80%94%20Finance%20%E2%80%A2%20Engineering%20%E2%80%A2%20Data%20%E2%80%A2%20Research%20%E2%80%A2%20Legal%20%E2%80%A2%20Healthcare&descAlignY=62&descColor=fbbf24&descSize=16" width="100%" />
 
 <br/>
 
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=20&pause=1200&color=D97706&center=true&vCenter=true&multiline=false&width=780&height=50&lines=40%2B+Specialized+AI+Agents+in+One+System+Prompt;Finance+%E2%80%A2+Engineering+%E2%80%A2+Data+%E2%80%A2+Operations+%E2%80%A2+Legal+%E2%80%A2+Research;Not+a+chatbot.+An+institutional-grade+AI+workforce.;Drop+in.+Orchestrate.+Execute+at+depth.)](https://git.io/typing-svg)
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=20&pause=1200&color=D97706&center=true&vCenter=true&multiline=false&width=780&height=50&lines=50%2B+specialist+Claude+Skills+across+8+domains;Finance+%E2%80%A2+Engineering+%E2%80%A2+Data+%E2%80%A2+Ops+%E2%80%A2+Legal+%E2%80%A2+Healthcare+%E2%80%A2+Web3;Each+skill+is+a+standalone+SKILL.md+—+drop+in+what+you+need;The+most+depth+per+skill+of+any+Claude+Skills+repo)](https://git.io/typing-svg)
 
 <br/>
 
 <a href="LICENSE"><img src="https://img.shields.io/badge/License-MIT-d97706?style=for-the-badge&logo=opensourceinitiative&logoColor=white" /></a>
-<a href="agents/"><img src="https://img.shields.io/badge/Agents-40%2B-92400e?style=for-the-badge&logo=robot&logoColor=white" /></a>
-<a href="skills/"><img src="https://img.shields.io/badge/Skills-100%2B-b45309?style=for-the-badge&logo=bookstack&logoColor=white" /></a>
-<a href="agents/"><img src="https://img.shields.io/badge/Divisions-8-78350f?style=for-the-badge&logo=layers&logoColor=white" /></a>
-<img src="https://img.shields.io/badge/Built_for-Claude_4.x-fbbf24?style=for-the-badge&logo=anthropic&logoColor=black" />
+<a href="#skills-index"><img src="https://img.shields.io/badge/Skills-51-92400e?style=for-the-badge&logo=bookstack&logoColor=white" /></a>
+<a href="#divisions"><img src="https://img.shields.io/badge/Domains-8-b45309?style=for-the-badge&logo=layers&logoColor=white" /></a>
+<img src="https://img.shields.io/badge/Claude-4.x-fbbf24?style=for-the-badge&logo=anthropic&logoColor=black" />
+<img src="https://img.shields.io/badge/Format-Claude_Skills-78350f?style=for-the-badge&logo=files&logoColor=white" />
 <a href="https://github.com/vignesh2027/Claude-Agentic-Skills2.0-version/stargazers"><img src="https://img.shields.io/github/stars/vignesh2027/Claude-Agentic-Skills2.0-version?style=for-the-badge&logo=starship&color=fbbf24&logoColor=white" /></a>
 
 <br/><br/>
-
-**One system prompt. 40+ specialists. Institutional-grade output.**
 
 </div>
 
 ---
 
-## What Is AgentOS?
+## What Are Claude Skills?
 
-AgentOS is a **complete multi-agent AI operating system** encoded as a single Claude system prompt. Drop it into Claude and you get an intelligent orchestrator that automatically:
+Claude Skills are modular, self-contained instruction packages that extend Claude's behavior in a specific domain. Each skill lives in its own folder with a `SKILL.md` file — a YAML frontmatter block + markdown instructions.
 
-1. **Identifies** which agent(s) your task needs
-2. **Decomposes** the work into focused sub-tasks
-3. **Routes** each sub-task to the right specialist
-4. **Executes** with full domain depth — no hand-waving
-5. **Synthesizes** everything into one unified output
-6. **Delivers** in the exact format you need
+When you load a skill into Claude, it gains that agent's full capabilities: domain knowledge, structured workflows, output formats, and decision logic.
 
 ```
-Your Task
-    │
-    ▼
-╔══════════════════════════════════════════════════╗
-║            AgentOS Orchestrator                  ║
-║  IDENTIFY → DECOMPOSE → ROUTE → EXECUTE → SYNTH  ║
-╚══════════════════════════════════════════════════╝
-    │            │            │            │
-    ▼            ▼            ▼            ▼
-QuantTrader  CFO-Intel    SeniorDev   DataScientist
- Finance      Finance    Engineering     Data
+your-skill-folder/
+└── SKILL.md        ← YAML frontmatter + markdown instructions
+    scripts/        ← (optional) executable code
+    references/     ← (optional) supplementary docs loaded on demand
+    assets/         ← (optional) templates and example files
 ```
 
-Every response starts with an activation announcement, ends with confidence level and next steps — and always includes a complete output, never a partial one.
+## How to Use a Skill
 
----
+### Claude.ai (Web)
+1. Go to [claude.ai](https://claude.ai) → **Projects** → New Project
+2. Open **Project Instructions**
+3. Paste the contents of `skill-name/SKILL.md`
+4. Every chat in that project uses that skill
 
-## Quick Start
-
-**60 seconds to activate.**
-
-### Claude.ai Projects (Recommended)
-```
-1. Go to claude.ai → Create a New Project
-2. Open "Project Instructions"
-3. Paste contents of prompts/agentOS-system-prompt.md
-4. Every chat in that project is now AgentOS
-```
-
-### Claude Code CLI
+### Claude Code (CLI)
 ```bash
-cat prompts/agentOS-system-prompt.md >> ~/.claude/CLAUDE.md
+# Add a skill to your project
+cat quant-trader/SKILL.md >> .claude/CLAUDE.md
+
+# Or add multiple skills
+cat senior-dev/SKILL.md rag-architect/SKILL.md >> .claude/CLAUDE.md
 ```
 
-### Anthropic API (Python)
+### Claude API
 ```python
 import anthropic
 
-with open("prompts/agentOS-system-prompt.md") as f:
-    system_prompt = f.read()
+with open("quant-trader/SKILL.md") as f:
+    skill = f.read()
 
 client = anthropic.Anthropic()
 response = client.messages.create(
     model="claude-sonnet-4-6",
     max_tokens=8096,
-    system=system_prompt,
-    messages=[{"role": "user", "content": "Analyze Q4 earnings and give me a trade signal"}]
+    system=skill,
+    messages=[{"role": "user", "content": "Give me a signal on NVDA"}]
 )
 ```
 
-### Cursor / Windsurf / IDE Rules
-Paste the contents of `prompts/agentOS-system-prompt.md` into your IDE's AI custom instructions or rules file.
+### Cursor / Windsurf / IDE
+Paste the contents of `SKILL.md` into your IDE's AI rules file (`.cursor/rules`, `.windsurfrules`, etc.).
 
 ---
 
-## 8 Divisions · 40+ Agents
+## Why AgentOS vs Other Skill Repos?
 
-### 💹 Finance Division — 8 Agents
-
-| Agent | What It Does |
-|-------|-------------|
-| **QuantTrader** | Generates buy/sell signals with entry/target/stop/R:R. Kelly sizing. Regime detection (trending/ranging/volatile). Outputs structured JSON trade signals. |
-| **CFO-Intelligence** | Parses P&L, balance sheet, cash flow from any format. 3-statement financial models. Budget vs actual variance with root cause. Board-ready executive summaries. |
-| **RiskSentinel** | VaR at 95%/99%, CVaR, Monte Carlo stress testing. Applies ISO 31000 + Basel III + COSO ERM. Outputs risk heat map + top-10 risk register + KRIs. |
-| **M&A DealMaker** | DCF, EV/EBITDA, LBO, precedent transaction analysis. Red flag detection, quality of earnings review. Synergy modeling and deal memo generation. |
-| **CryptoSage** | On-chain analytics: MVRV, SOPR, NVT, whale flows. DeFi TVL trends, yield farming APYs. Tokenomics vesting/unlock impact. Rug pull indicators. |
-| **PortfolioOptimizer** | MPT efficient frontier, factor exposure (value/momentum/quality/low-vol). Drift-based rebalance signals. Tax-loss harvesting and lot selection. |
-| **ESG-Compass** | Scope 1/2/3 emissions, ESG scoring vs 20+ metrics. TCFD, SFDR, SEC climate disclosure gap analysis. Net-zero roadmap prioritization. |
-| **ComplianceAI** | KYC/AML transaction monitoring, PEP screening. Filing deadline calendar. SOX/PCI/GDPR audit prep and control documentation. |
-
-### 🤖 AI & Engineering Division — 8 Agents
-
-| Agent | What It Does |
-|-------|-------------|
-| **RAG-Architect** | End-to-end RAG: semantic chunking (512 tokens, 64 overlap), embedding selection, pgvector/Pinecone setup, hybrid search (70% dense + 30% BM25), cross-encoder re-ranking, hallucination detection. |
-| **AgentSmith** | Multi-agent system architecture: hierarchical/parallel/sequential topologies. Semantic routing, tool schema design, memory layers (short/long/episodic), eval frameworks. |
-| **SeniorDev** | Complete production code only — never partial. TypeScript strict, async/await, full error handling, env vars for secrets, OWASP security, structured logging. Next.js 14 + FastAPI + PostgreSQL + Redis. |
-| **DataPipeline-Pro** | ETL/ELT pipeline design. dbt transformation models with tests. Airflow/Prefect DAG design. Spark at scale. Data quality validation, freshness checks, anomaly detection. |
-| **MLOps-Engineer** | MLflow experiment tracking, feature store design, leakage detection. Docker/K8s model serving. Data drift + concept drift monitoring. A/B model deployment with shadow mode. |
-| **DevOps-Commander** | GitHub Actions CI/CD pipelines. Multi-service Docker Compose and Kubernetes manifests. Terraform/Pulumi IaC. Prometheus + Grafana monitoring setup with alerting rules. |
-| **SecurityChief** | STRIDE threat modeling for any architecture. OWASP top 10 analysis. Log analysis patterns and SIEM triage. Incident response playbooks. SOC2/ISO 27001/NIST CSF control mapping. |
-| **APIIntegrator** | OpenAPI 3.0 schema-first design. OAuth 2.0, JWT, API key patterns. Webhook retry logic with HMAC signature verification. n8n/Zapier workflow design. Auto-SDK generation. |
-
-### 📊 Data & Analytics Division — 6 Agents
-
-| Agent | What It Does |
-|-------|-------------|
-| **DataScientist-Pro** | EDA, distribution analysis, outlier detection. Feature selection with correlation + importance. Model selection + Bayesian hyperparameter tuning. SHAP + business translation. |
-| **TimeSeriesOracle** | Trend/seasonality/residual decomposition. ARIMA, Prophet, LSTM, ensemble forecasting. Isolation Forest + DBSCAN anomaly detection. Prediction intervals and scenario planning. |
-| **BusinessIntelligence-Pro** | North star metric + metric tree design. LookML + Looker explore architecture. Window functions, CTEs, complex query optimization. Threshold-based and ML alerting logic. |
-| **RealtimeDataAgent** | Kafka/Kinesis topic design with partition strategy. Flink/Spark Streaming transformations. WebSocket server implementation. End-to-end latency analysis and optimization. |
-| **DatabaseGenius** | Normalization vs denormalization decisions. Composite, partial, covering index strategy. EXPLAIN plan analysis, N+1 elimination. Zero-downtime migration planning. pgvector for AI workloads. |
-| **ABTest-Scientist** | Sample size + power analysis. t-test, chi-square, Bayesian analysis. Multiple testing correction (Bonferroni/BH). Difference-in-Differences and synthetic control. Statistical vs practical significance. |
-
-### 🏢 Operations Division — 8 Agents
-
-| Agent | What It Does |
-|-------|-------------|
-| **ProductStrategy-Agent** | Full PRD writing. RICE scoring, MoSCoW, impact/effort matrix. User interview guides. Funnel analysis, cohort retention, LTV/CAC modeling. Competitive feature matrices. |
-| **SalesIntelligence** | ICP scoring with firmographic + intent signals. Personalized cold outreach sequences. Deal health scoring, stall detection, win probability. Bottom-up sales forecast. |
-| **MarketingOS** | Keyword research, search intent mapping, content gap analysis. ROAS analysis, multi-touch attribution. Conversion-focused copy (AIDA, PAS, StoryBrand). Campaign budget optimization. |
-| **CustomerSuccess-Agent** | Intent classification and routing. Churn prediction using behavioral signals. Onboarding sequence design. NPS driver analysis. Escalation with full context handoff. |
-| **LegalEagle** | Contract clause extraction and risk flagging. GDPR/CCPA/SOX/HIPAA compliance gaps. NDA scope, duration, and mutuality review. IP ownership and licensing risk. ⚠️ Not legal advice — consult a licensed attorney. |
-| **HRAnalytics-Agent** | JD writing with bias reduction. Flight risk and attrition driver modeling. Salary benchmarking. OKR writing, feedback templates. Engagement survey design. |
-| **SupplyChain-Oracle** | Seasonal demand forecasting, safety stock calculation. EOQ, reorder points, ABC analysis. Supplier scorecard, concentration risk, alternative sourcing. Supply chain stress testing. |
-| **ProjectCommand** | WBS, milestone definition, critical path. RAID log (Risks/Assumptions/Issues/Dependencies). Sprint planning, velocity tracking. RACI matrix, communication plan, status reports. |
-
-### 📝 Content & Research Division — 6 Agents
-
-| Agent | What It Does |
-|-------|-------------|
-| **ResearchIntelligence** | TAM/SAM/SOM market sizing. Competitive feature matrix and SWOT. Macro + micro trend identification with evidence. Academic paper synthesis. Strategic insight generation. |
-| **TechnicalWriter-Pro** | GitHub README with badges and examples. OpenAPI endpoint docs with code samples. Operational runbooks with step-by-step procedures. Knowledge base architecture. |
-| **PresentationMaestro** | Narrative arc and slide flow design. Data-to-chart selection. Executive summary distillation (3-5 key messages). Per-slide: headline, body, chart, speaker notes. |
-| **InnovationCatalyst** | Market gap analysis, JTBD framework. SCAMPER and Blue Ocean strategy. Business Model Canvas (all 9 blocks). MVP feature scoping and go-to-market planning. |
-| **LearningCoach** | Socratic teaching method. Learning objectives and module structure. Visual concept maps. Formative assessments with explanations. Knowledge gap identification. |
-| **NewsletterEngine** | Content curation and angle finding. A/B-tested subject lines with power words. Welcome → nurture → re-engagement sequences. Open rate and CTR root cause analysis. |
-
-### 🌐 Specialized Domain Agents — 6+ Agents
-
-| Agent | What It Does |
-|-------|-------------|
-| **HealthcareAnalytics** | HIPAA-safe outcomes analysis. HEDIS measures, CMS star ratings. Readmission risk scoring, length-of-stay modeling. Capacity planning and staff scheduling. |
-| **RealEstateIntelligence** | Cap rate, NOI, DCF, comp analysis. Supply/demand dynamics, rental trend modeling. Debt service coverage, IRR, equity multiple underwriting. Due diligence checklist: title, zoning, environmental, tenant. |
-| **InsuranceActuary** | Premium calculation, loss ratio modeling. IBNR reserves and claims development triangles. Fraud detection signal patterns. Treaty reinsurance design and attachment point optimization. |
-| **Web3-DeveloperAgent** | Gas-optimized Solidity smart contracts. AMM, lending protocol, yield vault architecture. Reentrancy, overflow, flash loan attack detection. Hardhat/Foundry test suites with fork testing. |
-| **GrowthHacking-Agent** | AARRR funnel optimization. k-factor calculation, referral loop design. Time-to-value optimization, aha moment identification. Highest-ROI acquisition channel identification. |
-| **QuantResearcher** | Testable hypothesis formulation. Econometric methodology selection. Literature synthesis. Statistical results → academic + business implications. Full paper structure (abstract → conclusion). |
+| Feature | Other Skill Repos | AgentOS 2.0 |
+|---------|------------------|-------------|
+| Skill depth | Shallow instructions | Full sub-agents, frameworks, output formats |
+| Finance skills | None or basic | VaR, DCF, LBO, trade signals, Kelly sizing |
+| Engineering skills | Basic prompts | Complete architecture: RAG, multi-agent, MLOps, DevOps |
+| Specialized domains | Rare | Healthcare, Real Estate, Insurance, Web3, Biotech, Climate |
+| Output formats | Text suggestions | Structured JSON, markdown tables, code templates |
+| Framework specificity | General | Named frameworks: STRIDE, COSO ERM, HEDIS, ATT&CK, TCFD |
+| Domain count | 2-3 | 8 full domains, 51 skills |
+| New agents | N/A | PromptEngineer, StartupAdvisor, PatentAnalyst, BiotechAnalyst, ClimateTech |
 
 ---
 
-## 100+ Skills Library
+## Skills Index
 
-Every agent composably draws from named skills:
+### 💹 Finance Division
 
-**Finance (20):** `skill::var_calculation` · `skill::dcf_modeling` · `skill::trade_signal_generation` · `skill::options_pricing` · `skill::credit_scoring` · `skill::cash_flow_forecasting` · `skill::merger_valuation` · `skill::crypto_on_chain` · `skill::esg_scoring` · `skill::regulatory_reporting` · `skill::fx_hedging_design` · `skill::tax_optimization` · `skill::yield_curve_analysis` · `skill::market_sentiment` · `skill::sector_rotation` · `skill::alternative_data` · `skill::earnings_analysis` · `skill::portfolio_analytics` · `skill::real_time_market_data` · `skill::financial_statement_parse`
+| Skill | Description |
+|-------|-------------|
+| [quant-trader](quant-trader/SKILL.md) | Trade signals with JSON output: entry, target, stop, R:R, Kelly sizing, regime detection |
+| [cfo-intelligence](cfo-intelligence/SKILL.md) | P&L parsing, 3-statement modeling, variance analysis, board reports, traffic-light KPIs |
+| [risk-sentinel](risk-sentinel/SKILL.md) | VaR at 95%/99%, CVaR, Monte Carlo stress testing, ISO 31000 + COSO ERM, risk heat maps |
+| [ma-dealmaker](ma-dealmaker/SKILL.md) | DCF, LBO, EV/EBITDA comps, QoE review, synergy modeling, IC memo writing |
+| [crypto-sage](crypto-sage/SKILL.md) | On-chain analytics (MVRV, SOPR, NVT), DeFi TVL, tokenomics, rug pull indicators |
+| [portfolio-optimizer](portfolio-optimizer/SKILL.md) | MPT efficient frontier, factor exposure (value/momentum/quality), tax-loss harvesting |
+| [esg-compass](esg-compass/SKILL.md) | Scope 1/2/3 emissions, 20-metric ESG scoring, TCFD/SFDR compliance, net-zero pathway |
+| [compliance-ai](compliance-ai/SKILL.md) | KYC/AML/PEP screening, transaction monitoring, SOX/PCI/GDPR audit prep |
 
-**AI/ML (20):** `skill::rag_pipeline_design` · `skill::agent_orchestration` · `skill::hallucination_detection` · `skill::embedding_strategy` · `skill::vector_store_setup` · `skill::prompt_optimization` · `skill::llm_evaluation` · `skill::fine_tuning_prep` · `skill::memory_architecture` · `skill::semantic_routing` · `skill::tool_schema_design` · `skill::context_window_mgmt` · `skill::multi_agent_debate` · `skill::llm_security` · `skill::streaming_inference` · `skill::synthetic_data_gen` · `skill::knowledge_graph` · `skill::multi_modal_processing` · `skill::cost_optimization` · `skill::agent_evaluation`
+### 🤖 AI & Engineering Division
 
-**Code (20):** `skill::typescript_expert` · `skill::nextjs_fullstack` · `skill::fastapi_backend` · `skill::security_hardening` · `skill::test_generation` · `skill::docker_compose` · `skill::kubernetes_deploy` · `skill::terraform_iac` · `skill::github_actions_ci` · `skill::graphql_design` · `skill::websocket_realtime` · `skill::react_components` · `skill::api_versioning` · `skill::database_orm` · `skill::caching_strategy` · `skill::logging_observability` · `skill::microservices_design` · `skill::performance_optimization` · `skill::code_review_deep` · `skill::sdk_generation`
+| Skill | Description |
+|-------|-------------|
+| [rag-architect](rag-architect/SKILL.md) | Hybrid RAG: semantic chunking, pgvector/Pinecone, BM25 + dense, re-ranking, hallucination detection |
+| [agent-smith](agent-smith/SKILL.md) | Multi-agent topology design, semantic routing, tool schema design, memory architecture, eval |
+| [senior-dev](senior-dev/SKILL.md) | Complete production code: Next.js 14, FastAPI, TypeScript strict, full error handling, security |
+| [data-pipeline-pro](data-pipeline-pro/SKILL.md) | dbt model layers, Airflow DAG design, Spark at scale, data quality validation, Snowflake optimization |
+| [mlops-engineer](mlops-engineer/SKILL.md) | MLflow experiment tracking, feature store, drift detection (PSI), A/B model deployment |
+| [devops-commander](devops-commander/SKILL.md) | GitHub Actions CI/CD, multi-stage Docker, Kubernetes manifests, Terraform modules, Prometheus alerting |
+| [security-chief](security-chief/SKILL.md) | STRIDE threat modeling, OWASP top 10, SIEM log analysis, SOC2/ISO 27001/NIST CSF mapping |
+| [api-integrator](api-integrator/SKILL.md) | OpenAPI 3.0 design, OAuth 2.0 flows, HMAC webhook verification, n8n workflow patterns |
+| [prompt-engineer](prompt-engineer/SKILL.md) | System prompt design, few-shot examples, chain-of-thought, eval frameworks, injection prevention |
 
-**Data (20):** `skill::sql_expert` · `skill::ab_test_design` · `skill::causal_inference` · `skill::time_series_forecast` · `skill::anomaly_detection` · `skill::dbt_modeling` · `skill::spark_processing` · `skill::airflow_orchestration` · `skill::data_quality` · `skill::feature_engineering` · `skill::pandas_master` · `skill::etl_pipeline_design` · `skill::data_visualization` · `skill::looker_dashboards` · `skill::stream_processing` · `skill::model_monitoring` · `skill::ml_pipeline` · `skill::data_storytelling` · `skill::data_catalog` · `skill::data_governance`
+### 📊 Data & Analytics Division
 
-**Ops & Business (20):** `skill::okr_design` · `skill::project_planning` · `skill::business_case_writing` · `skill::stakeholder_management` · `skill::kpi_design` · `skill::process_mapping` · `skill::contract_review` · `skill::due_diligence_checklist` · `skill::board_reporting` · `skill::sla_design` · `skill::incident_management` · `skill::hiring_process` · `skill::compliance_audit` · `skill::demand_forecasting` · `skill::pricing_strategy` · `skill::customer_journey_mapping` · `skill::nps_analysis` · `skill::change_management` · `skill::vendor_negotiation` · `skill::jira_workflow`
+| Skill | Description |
+|-------|-------------|
+| [data-scientist-pro](data-scientist-pro/SKILL.md) | EDA, feature engineering, model selection, Bayesian hypertuning, SHAP interpretation |
+| [timeseries-oracle](timeseries-oracle/SKILL.md) | ARIMA/Prophet/LSTM forecasting, anomaly detection, prediction intervals, scenario planning |
+| [business-intelligence-pro](business-intelligence-pro/SKILL.md) | North star metric framework, KPI trees, LookML, SQL window functions, cohort analysis |
+| [realtime-data-agent](realtime-data-agent/SKILL.md) | Kafka topic design, Spark Streaming, WebSocket server, event schema, latency budgets |
+| [database-genius](database-genius/SKILL.md) | ERD design, composite/partial/covering indexes, EXPLAIN analysis, zero-downtime migration, pgvector |
+| [abtest-scientist](abtest-scientist/SKILL.md) | Power analysis, Bayesian/frequentist testing, multiple testing correction, DiD, synthetic control |
 
-**Content (15):** `skill::seo_research` · `skill::copywriting_pro` · `skill::content_strategy` · `skill::email_sequences` · `skill::technical_writing` · `skill::thought_leadership` · `skill::newsletter_writing` · `skill::social_media_strategy` · `skill::brand_voice` · `skill::video_scripting` · `skill::case_study_writing` · `skill::press_release_writing` · `skill::podcast_scripting` · `skill::grant_writing` · `skill::speechwriting`
+### 🏢 Operations Division
+
+| Skill | Description |
+|-------|-------------|
+| [product-strategy](product-strategy/SKILL.md) | Full PRD writing, RICE scoring, north star metric, LTV/CAC modeling, competitive positioning |
+| [sales-intelligence](sales-intelligence/SKILL.md) | ICP scoring, 5-touch outreach sequences, deal health scoring, bottom-up forecasting |
+| [marketing-os](marketing-os/SKILL.md) | Keyword clustering, ROAS analysis, AIDA/PAS copywriting, attribution models, brand voice |
+| [customer-success](customer-success/SKILL.md) | Churn prediction signals, NPS driver analysis, onboarding sequences, escalation playbooks |
+| [legal-eagle](legal-eagle/SKILL.md) | Contract clause extraction, GDPR/CCPA/SOX gaps, NDA review, IP risk — not legal advice |
+| [hr-analytics](hr-analytics/SKILL.md) | Attrition prediction, bias-reduced JD writing, comp benchmarking, OKR + performance templates |
+| [supply-chain-oracle](supply-chain-oracle/SKILL.md) | Demand forecasting, EOQ + safety stock, ABC analysis, supplier scorecard, disruption stress test |
+| [project-command](project-command/SKILL.md) | WBS + milestones, RAID log, sprint velocity, RACI matrix, weekly status reports |
+
+### 📝 Content & Research Division
+
+| Skill | Description |
+|-------|-------------|
+| [research-intelligence](research-intelligence/SKILL.md) | TAM/SAM/SOM methodology, competitive positioning map, trend identification with evidence |
+| [technical-writer-pro](technical-writer-pro/SKILL.md) | GitHub README, OpenAPI docs with code examples, runbook template, wiki architecture |
+| [presentation-maestro](presentation-maestro/SKILL.md) | Conflict-resolution narrative arc, per-slide structure, chart selection, BLUF for executives |
+| [innovation-catalyst](innovation-catalyst/SKILL.md) | JTBD framework, SCAMPER, BMC all 9 blocks, Blue Ocean, MVP scoping |
+| [learning-coach](learning-coach/SKILL.md) | Bloom's taxonomy objectives, Socratic method, spaced repetition, Socratic quiz design |
+| [newsletter-engine](newsletter-engine/SKILL.md) | Subject line formulas, 7-email onboarding sequence, referral mechanics, open rate benchmarks |
+
+### 🌐 Specialized Domain Division
+
+| Skill | Description |
+|-------|-------------|
+| [healthcare-analytics](healthcare-analytics/SKILL.md) | HIPAA-safe analytics, HEDIS measures, LACE readmission index, capacity planning (HIPAA compliant) |
+| [real-estate-intelligence](real-estate-intelligence/SKILL.md) | Cap rate, NOI, DSCR, IRR, equity multiple, full CRE due diligence checklist |
+| [insurance-actuary](insurance-actuary/SKILL.md) | Loss ratio, combined ratio, chain ladder IBNR, reinsurance treaty design, fraud signals |
+| [web3-developer](web3-developer/SKILL.md) | Gas-optimized Solidity, reentrancy/flash loan detection, Foundry fuzz+fork testing, ERC standards |
+| [growth-hacking](growth-hacking/SKILL.md) | AARRR funnel, k-factor viral loop, activation aha moment, retention habit loop (Hooked model) |
+| [quant-researcher](quant-researcher/SKILL.md) | Hypothesis design, econometric methodology, academic paper structure, Fama-MacBeth, robustness |
+| [startup-advisor](startup-advisor/SKILL.md) | Pitch deck review, unit economics health check, fundraising stage strategy, moat analysis |
+| [patent-analyst](patent-analyst/SKILL.md) | Prior art search, claim scope analysis, FTO methodology, patent landscape, IP strategy |
+| [climate-tech-analyst](climate-tech-analyst/SKILL.md) | GHG Scope 1/2/3, TCFD risk framework, clean energy LCOE, SBTi targets, carbon offset quality |
+| [biotech-analyst](biotech-analyst/SKILL.md) | Clinical pipeline PoS, rNPV valuation, FDA expedited programs, competitive indication mapping |
+| [cybersecurity-analyst](cybersecurity-analyst/SKILL.md) | MITRE ATT&CK mapping, threat hunting hypotheses, DFIR investigation phases, threat intel reports |
+| [supply-chain-optimizer](supply-chain-optimizer/SKILL.md) | Network design optimization, center of gravity model, last-mile cost, digital twin, FTZ compliance |
+| [ui-ux-designer](ui-ux-designer/SKILL.md) | Nielsen's 10 heuristics, WCAG 2.1 AA audit, user flow friction scoring, design system specs |
+
+### 🎛 Orchestration
+
+| Skill | Description |
+|-------|-------------|
+| [agentOS-orchestrator](agentOS-orchestrator/SKILL.md) | Full multi-agent OS: auto-routes tasks to specialists, synthesizes unified outputs — activate all 50+ agents |
 
 ---
 
-## Output Format — Always
+## Skill Format
 
+Every skill uses the standard Claude Skills format:
+
+```markdown
+---
+name: skill-name
+description: >
+  One or two sentences describing when Claude should use this skill and what it does.
+  This is used for skill matching and discovery.
+license: MIT
+---
+
+# Skill Name Agent
+
+[Full instructions for Claude...]
 ```
-╔══════════════════════════════════════════════╗
-║  🤖 AGENT ACTIVATION                         ║
-║  Primary: QuantTrader                        ║
-║  Support: RiskSentinel + CFO-Intelligence    ║
-║  Skills:  trade_signal_generation | var_calc ║
-║  Mode:    analysis                           ║
-╚══════════════════════════════════════════════╝
 
-■ Executive Summary       (3 bullets max — fast scan)
-■ Full Analysis/Code/Strategy  (complete, never partial)
-■ Confidence Level        (Low / Medium / High + reason)
-■ Next Steps              (what to do with this output)
-■ Caveats                 (what could change the answer)
-```
+The `description` field is critical — it's how Claude matches the right skill to the user's intent.
 
-**Code output rules:**
-- Complete files only — never partial snippets
-- TypeScript strict mode always (`no 'any'` ever)
-- Full error handling in every function
-- All secrets in env vars — never hardcoded
-- Setup instructions + required env vars included
+---
+
+## What Makes These Skills Different
+
+**Depth over breadth.** Each skill includes:
+- Named sub-agents with specific responsibilities
+- Actual formulas and calculations (not just "analyze the data")
+- Decision frameworks with specific criteria
+- Output format templates with examples
+- Anti-patterns and forbidden behaviors
+- Quantitative thresholds (not just "flag if high")
+
+**Example — risk-sentinel:**
+Other repos: *"Analyze risks for this portfolio"*
+AgentOS: *VaR at 95%/99%, CVaR calculation, ISO 31000 + Basel III + COSO ERM, risk heat map (L×I matrix), top-10 risk register with KRIs, 5 specific stress scenarios (2008 GFC, 2020 COVID, 2022 rate shock...)*
+
+**Example — rag-architect:**
+Other repos: *"Help me build a RAG system"*
+AgentOS: *512-token semantic chunks with 64-token overlap, hybrid search (70% dense + 30% BM25), cross-encoder re-ranking, hallucination detection via entailment, specific embedding model selection table, complete Python code output*
+
+---
+
+## Contributing
+
+See [CONTRIBUTING.md](CONTRIBUTING.md).
+
+New skills are welcome. Use the [template-skill](template-skill/SKILL.md) as your starting point.
 
 ---
 
@@ -215,60 +232,19 @@ Every agent composably draws from named skills:
 
 ```
 Claude-Agentic-Skills2.0-version/
+├── agentOS-orchestrator/     ← Full multi-agent OS (use to get all 50+ agents)
+├── quant-trader/             ← Finance: trade signals, Kelly sizing, regimes
+├── cfo-intelligence/         ← Finance: P&L, 3-statement model, board reports
+├── risk-sentinel/            ← Finance: VaR, CVaR, COSO ERM, stress testing
+├── ma-dealmaker/             ← Finance: DCF, LBO, due diligence, IC memos
+├── ... (47 more skills)
+├── template-skill/           ← Copy this to create a new skill
 ├── prompts/
-│   └── agentOS-system-prompt.md    ← The system prompt — paste this into Claude
-├── agents/
-│   ├── finance/                    ← Full specs for 8 finance agents
-│   ├── engineering/                ← Full specs for 8 engineering agents
-│   ├── data/                       ← Full specs for 6 data agents
-│   ├── operations/                 ← Full specs for 8 ops agents
-│   ├── content/                    ← Full specs for 6 content agents
-│   └── specialized/                ← Full specs for 6+ domain agents
-├── skills/
-│   ├── finance-skills.md
-│   ├── aiml-skills.md
-│   ├── code-skills.md
-│   ├── data-skills.md
-│   ├── ops-skills.md
-│   └── content-skills.md
-├── examples/
-│   ├── finance-examples.md
-│   ├── engineering-examples.md
-│   └── research-examples.md
-├── docs/
-│   ├── how-it-works.md
-│   └── agent-reference.md
-├── index.html                      ← Project website (warm white theme)
+│   └── agentOS-system-prompt.md  ← Full OS as a single system prompt (API use)
+├── index.html                ← Project website
+├── CONTRIBUTING.md
 └── README.md
 ```
-
----
-
-## Why AgentOS?
-
-| Capability | Regular Claude | AgentOS |
-|-----------|---------------|---------|
-| Task routing | Manual | Automatic, keyword-triggered |
-| Domain depth | Generalist | Sub-agent specialist per domain |
-| Output structure | Variable | Consistent every response |
-| Multi-domain tasks | One at a time | Parallel agent execution |
-| Sub-agent decomposition | None | Built-in per agent |
-| Skills library | None | 100+ named composable skills |
-| Trade signals | Basic | Full JSON with R:R, sizing, regime |
-| Code output | Partial OK | Complete production files, always |
-| Risk analysis | Surface-level | VaR, CVaR, stress tests, heat maps |
-| Financial modeling | Manual prompting | Auto-triggered by keywords |
-
----
-
-## Who Is This For?
-
-- **Finance professionals** — analysts, traders, portfolio managers, CFOs, risk teams
-- **Engineers** — full-stack developers, ML engineers, data engineers, DevOps
-- **Data scientists** — ML pipelines, forecasting, causal inference, experimentation
-- **Founders & operators** — product, marketing, sales, legal, HR, supply chain
-- **Researchers** — systematic market research, academic writing, literature synthesis
-- **Anyone** who wants Claude to behave like a coordinated AI team, not a single chatbot
 
 ---
 
@@ -280,9 +256,9 @@ MIT — free to use, modify, and distribute. See [LICENSE](LICENSE).
 
 <div align="center">
 
-**Built solo by [@vignesh2027](https://github.com/vignesh2027)**
+**Built by [@vignesh2027](https://github.com/vignesh2027)**
 
-*If AgentOS is useful to you, a ⭐ star keeps the project visible.*
+*If AgentOS saves you time, a ⭐ star keeps it visible to others.*
 
 <img src="https://capsule-render.vercel.app/api?type=waving&color=0:7c3000,50:3d1a00,100:1a0a00&height=120&section=footer" width="100%" />
 
